@@ -73,16 +73,16 @@
   "faqs": [],
   "contact": {
     "id": "contact",
-    "phone_1": "",
+    "phone_1": "90890890909",
     "phone_2": "",
     "email": "",
     "map": "",
     "translations": {
-      "uz": { "address": "" },
-      "ru": { "address": "" },
-      "en": { "address": "" }
+      "uz": { "address": "abc" },
+      "ru": { "address": "abc" },
+      "en": { "address": "abc" }
     }
   },
-  "social": { "id": "social", "instagram": "", "facebook": "", "telegram": "" },
+  "social": { "id": "social", "instagram": "test", "facebook": "test Facebook", "telegram": "@greatpool" },
   "formEndpoint": ""
 }

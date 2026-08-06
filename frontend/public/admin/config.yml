@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: public/uploads
+media_folder: frontend/public/uploads
 public_folder: /uploads
 collections:
   - name: site
@@ -10,7 +10,7 @@ collections:
     files:
       - name: catalogue
         label: Products, categories and pages
-        file: content/site.json
+        file: frontend/content/site.json
         format: json
         fields:
           - { name: categories, label: Categories, widget: list, fields: [ { name: id, widget: string }, { name: slug, widget: string, hint: "Unique URL-safe value; do not change after publishing" }, { name: image, widget: image, required: false }, { name: is_featured, widget: boolean, default: false }, { name: translations, label: Translations, widget: object, fields: [ { name: uz, widget: object, fields: [ { name: title, widget: string } ] }, { name: ru, widget: object, fields: [ { name: title, widget: string } ] }, { name: en, widget: object, fields: [ { name: title, widget: string } ] } ] } ] }
@@ -26,7 +26,7 @@ collections:
     files:
       - name: uzbek
         label: Uzbek text
-        file: dictionaries/uz.json
+        file: frontend/dictionaries/uz.json
         format: json
         fields: &dictionary_fields
           - name: common
@@ -50,11 +50,11 @@ collections:
             fields: [ { name: description, widget: string }, { name: specifications, widget: string }, { name: relatedProducts, widget: string }, { name: addToCart, widget: string }, { name: outOfStock, widget: string }, { name: inStock, widget: string }, { name: price, widget: string }, { name: discountedPrice, widget: string }, { name: category, widget: string }, { name: brand, widget: string }, { name: model, widget: string }, { name: warranty, widget: string }, { name: features, widget: string }, { name: reviews, widget: string }, { name: writeReview, widget: string }, { name: noReviews, widget: string }, { name: reviewsCount, widget: string }, { name: rating, widget: string }, { name: submitReview, widget: string }, { name: reviewTitle, widget: string }, { name: reviewContent, widget: string }, { name: yourRating, widget: string }, { name: yourName, widget: string }, { name: yourEmail, widget: string }, { name: thankYouForReview, widget: string }, { name: errorSubmittingReview, widget: string } ]
       - name: russian
         label: Russian text
-        file: dictionaries/ru.json
+        file: frontend/dictionaries/ru.json
         format: json
         fields: *dictionary_fields
       - name: english
         label: English text
-        file: dictionaries/en.json
+        file: frontend/dictionaries/en.json
         format: json
         fields: *dictionary_fields
