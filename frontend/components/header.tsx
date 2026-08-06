@@ -198,7 +198,7 @@ export default function Header({
             />
           </Link>
 
-          <nav className="hidden md:flex items-center space-x-4 lg:space-x-6">
+          <nav className="hidden md:flex items-center space-x-4 lg:space-x-6 font-[family-name:var(--font-manrope)] text-[0.68rem] tracking-[0.08em] uppercase">
             <Link
               href={`/${lang}`}
               className={cn(

@@ -49,7 +49,7 @@ export default async function Home({
           title={dict.home.shopByCategories}
         />
         <FeaturedProduct adBanner={adBanner} lang={lang as Locale} />
-        <div className="px-4 md:px-4 lg:px-16 py-6">
+        <div className="relative overflow-hidden px-4 md:px-4 lg:px-16 py-6 bg-[radial-gradient(circle_at_85%_20%,#dceefb_0,transparent_26%),radial-gradient(circle_at_12%_70%,#ebe6fa_0,transparent_30%),#f9fcff]">
           <PopularProducts
             title={dict.home.popularProducts}
             products={popularProducts}

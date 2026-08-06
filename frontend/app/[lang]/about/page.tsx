@@ -132,7 +132,7 @@ export default async function AboutPage({
           dictionary={dict}
         />
 
-        <section className="py-16 md:py-24 bg-white">
+        <section className="py-16 md:py-24 bg-[linear-gradient(135deg,#f8fcff_0%,#eef8fb_50%,#f8f6ff_100%)]">
           <div className="container mx-auto px-4 md:px-8 lg:px-24">
             <div className="max-w-4xl mx-auto">
               <div className="mb-12 text-center">
@@ -175,7 +175,7 @@ export default async function AboutPage({
           </div>
         </section>
 
-        <section className="py-16 bg-gray-50">
+        <section className="py-16 bg-[#eff8fc]">
           <div className="container mx-auto px-4 md:px-8 lg:px-24">
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
               {dict.about.ourProducts || "Our Products"}
@@ -192,7 +192,7 @@ export default async function AboutPage({
           </div>
         </section>
 
-        <section className="py-16 md:py-24 bg-white">
+        <section className="py-16 md:py-24 bg-[linear-gradient(135deg,#f7f8ff,#eef9fc)]">
           <div className="container mx-auto px-4 md:px-8 lg:px-24">
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
               {dict.about.ourBrands || "Our Brands"}

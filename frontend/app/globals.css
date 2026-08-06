@@ -169,6 +169,15 @@
   line-height: 1.6;
 }
 
+/* CMS and migrated rich text can contain old inline font declarations. */
+.richtext-content,
+.richtext-content p,
+.richtext-content li,
+.richtext-content span,
+.richtext-content div {
+  font-family: var(--font-manrope), Arial, sans-serif !important;
+}
+
 .richtext-content h1,
 .richtext-content h2,
 .richtext-content h3,
@@ -179,6 +188,7 @@
   margin-bottom: 0.5em;
   font-weight: 600;
   line-height: 1.25;
+  font-family: var(--font-cormorant), Georgia, serif !important;
 }
 
 .richtext-content h1 {

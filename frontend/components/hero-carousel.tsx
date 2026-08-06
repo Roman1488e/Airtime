@@ -124,10 +124,10 @@ export default function HeroCarousel({
       </div>
 
       {/* Content */}
-      <div className="container relative z-10 mx-auto px-5 sm:px-8 lg:px-24 py-12 md:py-20 lg:py-28 h-full flex flex-col justify-end min-h-[584px] md:min-h-[calc(100vh-4rem)]">
-        <div className="w-full max-w-xl border-l border-white/50 pl-6 md:pl-9 pb-4">
+      <div className="container relative z-10 mx-auto px-5 sm:px-8 lg:px-24 pt-32 md:pt-40 lg:pt-44 pb-12 h-full flex flex-col justify-start min-h-[584px] md:min-h-[calc(100vh-4rem)]">
+        <div className="w-full max-w-2xl border-l border-white/60 pl-6 md:pl-10 pb-4">
           <p className="mb-3 text-[0.66rem] font-extrabold tracking-[0.28em] text-white/80 uppercase">Air Time · Signature collection</p>
-          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold leading-[.83] text-white mb-6 md:mb-7">
+          <h1 className="text-6xl sm:text-7xl md:text-[9rem] lg:text-[11rem] font-semibold leading-[.73] text-white mb-7 md:mb-9 drop-shadow-sm">
             {slide.translations[lang]?.title ||
               slide.translations.uz.title ||
               slide.translations.ru.title ||
