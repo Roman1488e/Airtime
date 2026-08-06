@@ -100,7 +100,7 @@ export default function HeroCarousel({
 
   return (
     <section
-      className="relative w-full min-h-[50vh] md:min-h-screen pt-16 bg-cover bg-center bg-no-repeat transition-all duration-500 overflow-hidden"
+      className="relative w-full min-h-[600px] md:min-h-screen pt-16 bg-cover bg-center bg-no-repeat transition-all duration-500 overflow-hidden"
       onMouseEnter={() => setAutoplayPaused(true)}
       onMouseLeave={() => setAutoplayPaused(false)}
     >
@@ -120,13 +120,14 @@ export default function HeroCarousel({
           )}
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-white/50"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#161332]/80 via-[#161332]/38 to-transparent"></div>
       </div>
 
       {/* Content */}
-      <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-24 py-8 md:py-16 lg:py-24 h-full flex flex-col justify-center">
-        <div className="w-full max-w-2xl  p-6 md:p-8 ">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 md:mb-6">
+      <div className="container relative z-10 mx-auto px-5 sm:px-8 lg:px-24 py-12 md:py-20 lg:py-28 h-full flex flex-col justify-end min-h-[584px] md:min-h-[calc(100vh-4rem)]">
+        <div className="w-full max-w-xl border-l border-white/50 pl-6 md:pl-9 pb-4">
+          <p className="mb-3 text-[0.66rem] font-extrabold tracking-[0.28em] text-white/80 uppercase">Air Time · Signature collection</p>
+          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold leading-[.83] text-white mb-6 md:mb-7">
             {slide.translations[lang]?.title ||
               slide.translations.uz.title ||
               slide.translations.ru.title ||
@@ -135,14 +136,14 @@ export default function HeroCarousel({
           </h1>
 
           <div
-            className="text-gray-700 text-base md:text-lg mb-6 md:mb-8 richtext-content"
+            className="max-w-md text-white/90 text-sm md:text-base leading-relaxed mb-7 md:mb-9 richtext-content"
             dangerouslySetInnerHTML={getDescription(slide, lang)}
           />
 
           {slide.ctaLink && (
             <Button
               href={`${lang}${slide.ctaLink}`}
-              className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#383084] hover:bg-[#2d2670] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#383084] transition-colors duration-200"
+              className="button-primary bg-white text-[#211d4f] shadow-xl hover:bg-white"
             >
               {dictionary.common.learnMore}
             </Button>

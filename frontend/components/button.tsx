@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { ArrowUpRight } from "lucide-react";
 
 interface ButtonProps {
   onClick?: () => void;
@@ -18,18 +19,18 @@ const Button: React.FC<ButtonProps> = ({
     return (
       <Link
         href={href}
-        className={`inline-flex h-10 items-center justify-center rounded-md bg-[#383084] px-8 relative overflow-hidden text-sm font-medium text-white btn z-10 border border-[#383084] ${
+        className={`button-primary ${
           className || ""
         }`}
       >
-        {children}
+        <span>{children}</span><ArrowUpRight aria-hidden="true" className="h-4 w-4" />
       </Link>
     );
   }
 
   return (
-    <button onClick={onClick} className={`btn ${className || ""}`}>
-      {children}
+    <button onClick={onClick} className={`button-primary ${className || ""}`}>
+      <span>{children}</span><ArrowUpRight aria-hidden="true" className="h-4 w-4" />
     </button>
   );
 };

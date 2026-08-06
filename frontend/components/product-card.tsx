@@ -85,7 +85,7 @@ export default function ProductCard({
           <div className="mt-auto">
             <Link
               href={`/${lang}/products/${product.slug}`}
-              className="text-indigo-600 text-sm font-medium hover:text-indigo-800 transition-colors flex items-center"
+              className="inline-flex items-center gap-1 text-[0.68rem] font-extrabold uppercase tracking-[0.13em] text-[#383084] transition-colors hover:text-[#211d4f]"
             >
               {learnMoreText}
               <ChevronRight className="h-3.5 w-3.5 ml-0.5" />
@@ -151,7 +151,7 @@ export default function ProductCard({
         <div className="mt-auto">
           <Link
             href={`/${lang}/products/${product.slug}`}
-            className="text-indigo-600 text-sm font-medium hover:text-indigo-800 transition-colors flex items-center"
+            className="inline-flex items-center gap-1 text-[0.68rem] font-extrabold uppercase tracking-[0.13em] text-[#383084] transition-colors hover:text-[#211d4f]"
           >
             {learnMoreText}
             <ChevronRight className="h-3.5 w-3.5 ml-0.5" />

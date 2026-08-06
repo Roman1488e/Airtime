@@ -58,7 +58,7 @@ export default function PopularProducts({
     <section className="py-16 relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex items-center justify-between mb-8">
-          <h2 className="text-2xl md:text-3xl font-bold">{title}</h2>
+          <h2 className="text-4xl md:text-5xl font-semibold">{title}</h2>
 
           <div className="flex space-x-2">
             <button

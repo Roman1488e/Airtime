@@ -15,7 +15,7 @@ export default function CategoriesSection({
   return (
     <section className="py-12 md:py-16 lg:py-20 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6 lg:px-24 relative z-10">
-        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center text-gray-800 mb-8 md:mb-12">
+        <h2 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-center text-gray-800 mb-8 md:mb-12">
           {title}
         </h2>
 
