@@ -17,5 +17,48 @@
         "address": "abc"
       }
     }
-  }
+  },
+  "products": [
+    {
+      "is_available": true,
+      "featured": true,
+      "id": "1",
+      "slug": "1",
+      "category": "1",
+      "price": "10000",
+      "discounted_price": "100",
+      "translations": {
+        "uz": {
+          "title": "ssfs",
+          "description": "fsfsfsfsfs"
+        },
+        "ru": {
+          "title": "sffsfsf",
+          "description": "sfsfsfsfs"
+        },
+        "en": {
+          "title": "sfsfsfs",
+          "description": "fsfsfsfsf"
+        }
+      }
+    }
+  ],
+  "categories": [
+    {
+      "is_featured": true,
+      "id": "1",
+      "slug": "1",
+      "translations": {
+        "uz": {
+          "title": "Parfum"
+        },
+        "ru": {
+          "title": "RU"
+        },
+        "en": {
+          "title": "EN"
+        }
+      }
+    }
+  ]
 }
