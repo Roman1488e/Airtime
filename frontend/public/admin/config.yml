@@ -4,8 +4,6 @@ backend:
 
 media_folder: public/uploads
 public_folder: /uploads
-publish_mode: editorial_workflow
-
 collections:
   - name: site
     label: Website content
@@ -22,3 +20,41 @@ collections:
           - { name: contact, label: Contact details, widget: object, fields: [ { name: id, widget: hidden, default: contact }, { name: email, widget: string, required: false }, { name: phone_1, widget: string, required: false }, { name: phone_2, widget: string, required: false }, { name: map, widget: string, required: false }, { name: translations, widget: object, fields: [ { name: uz, widget: object, fields: [ { name: address, widget: string } ] }, { name: ru, widget: object, fields: [ { name: address, widget: string } ] }, { name: en, widget: object, fields: [ { name: address, widget: string } ] } ] } ] }
           - { name: social, label: Social links, widget: object, fields: [ { name: id, widget: hidden, default: social }, { name: instagram, widget: string, required: false }, { name: facebook, widget: string, required: false }, { name: telegram, widget: string, required: false } ] }
           - { name: formEndpoint, label: Contact form endpoint, widget: string, required: false, hint: "Optional Formspree endpoint. Leave empty to open the visitor's mail program." }
+
+  - name: translations
+    label: Website text
+    files:
+      - name: uzbek
+        label: Uzbek text
+        file: dictionaries/uz.json
+        format: json
+        fields: &dictionary_fields
+          - name: common
+            label: Navigation and common text
+            widget: object
+            fields: [ { name: home, widget: string }, { name: categories, widget: string }, { name: featuredProducts, widget: string }, { name: products, widget: string }, { name: aboutUs, widget: string }, { name: contacts, widget: string }, { name: selectLanguage, widget: string }, { name: learnMore, widget: string }, { name: searchProducts, widget: string }, { name: loading, widget: string }, { name: noProductsFound, widget: string }, { name: english, widget: string }, { name: russian, widget: string }, { name: uzbek, widget: string }, { name: recentlyViewed, widget: string }, { name: searchResults, widget: string }, { name: allProducts, widget: string }, { name: filters, widget: string }, { name: clearAll, widget: string }, { name: search, widget: string }, { name: availability, widget: string }, { name: famousProducts, widget: string }, { name: clearFilters, widget: string }, { name: noProductsFoundMessage, widget: text }, { name: showFilters, widget: string }, { name: hideFilters, widget: string }, { name: gridView, widget: string }, { name: listView, widget: string }, { name: productsFound, widget: string }, { name: productsFoundInCategory, widget: string }, { name: previousPage, widget: string }, { name: nextPage, widget: string }, { name: footer, widget: object, fields: [ { name: description, widget: text } ] } ]
+          - name: contacts
+            label: Contact page text
+            widget: object
+            fields: [ { name: title, widget: string }, { name: getInTouch, widget: string }, { name: contactMessage, widget: text }, { name: email, widget: string }, { name: phone, widget: string }, { name: address, widget: string }, { name: firstName, widget: string }, { name: lastName, widget: string }, { name: phoneNumber, widget: string }, { name: sending, widget: string }, { name: successMessage, widget: string }, { name: errorMessage, widget: string }, { name: message, widget: string }, { name: sendMessage, widget: string }, { name: faqTitle, widget: string }, { name: contactUs, widget: string } ]
+          - { name: featured, label: Featured page text, widget: object, fields: [ { name: title, widget: string } ] }
+          - name: home
+            label: Home page text
+            widget: object
+            fields: [ { name: shopByCategories, widget: string }, { name: popularProducts, widget: string }, { name: discountedProducts, widget: string }, { name: contactTitle, widget: string }, { name: contactSubtitle, widget: string }, { name: contactDescription, widget: text }, { name: formTitle, widget: string }, { name: namePlaceholder, widget: string }, { name: emailPlaceholder, widget: string }, { name: messagePlaceholder, widget: string }, { name: submitButton, widget: string }, { name: socialTitle, widget: string } ]
+          - { name: about, label: About page text, widget: object, fields: [ { name: title, widget: string }, { name: ourProducts, widget: string }, { name: ourBrands, widget: string }, { name: ourMission, widget: string }, { name: noDescription, widget: string }, { name: missionStatement, widget: text } ] }
+          - { name: seo, label: Search-engine text, widget: object, fields: [ { name: productsDescription, widget: text }, { name: categoryDescription, widget: text }, { name: searchDescription, widget: text }, { name: homeDescription, widget: text }, { name: aboutDescription, widget: text }, { name: contactsDescription, widget: text } ] }
+          - name: product
+            label: Product page text
+            widget: object
+            fields: [ { name: description, widget: string }, { name: specifications, widget: string }, { name: relatedProducts, widget: string }, { name: addToCart, widget: string }, { name: outOfStock, widget: string }, { name: inStock, widget: string }, { name: price, widget: string }, { name: discountedPrice, widget: string }, { name: category, widget: string }, { name: brand, widget: string }, { name: model, widget: string }, { name: warranty, widget: string }, { name: features, widget: string }, { name: reviews, widget: string }, { name: writeReview, widget: string }, { name: noReviews, widget: string }, { name: reviewsCount, widget: string }, { name: rating, widget: string }, { name: submitReview, widget: string }, { name: reviewTitle, widget: string }, { name: reviewContent, widget: string }, { name: yourRating, widget: string }, { name: yourName, widget: string }, { name: yourEmail, widget: string }, { name: thankYouForReview, widget: string }, { name: errorSubmittingReview, widget: string } ]
+      - name: russian
+        label: Russian text
+        file: dictionaries/ru.json
+        format: json
+        fields: *dictionary_fields
+      - name: english
+        label: English text
+        file: dictionaries/en.json
+        format: json
+        fields: *dictionary_fields
