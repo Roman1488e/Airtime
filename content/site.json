@@ -1,0 +1,21 @@
+{
+  "social": {
+    "instagram": "test",
+    "facebook": "test Facebook",
+    "telegram": "@greatpool"
+  },
+  "contact": {
+    "phone_1": "90890890909",
+    "translations": {
+      "uz": {
+        "address": "abc"
+      },
+      "ru": {
+        "address": "abc"
+      },
+      "en": {
+        "address": "abc"
+      }
+    }
+  }
+}
