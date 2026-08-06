@@ -1,0 +1,25 @@
+Django==5.0.2
+djangorestframework>=3.14.0
+black==23.12.1
+django-cors-headers==4.3.1
+django-filter==23.5
+django-modeltranslation==0.18.11
+django-jazzmin==2.6.0
+django-parler==2.3
+django-parler-rest==2.2
+djoser==2.2.2
+drf-spectacular[sidecar]==0.27.0
+isort==5.13.2
+markdown==3.5.1
+# pillow==11.2.1
+pillow==10.2.0
+pip-chill==1.0.3
+psycopg2-binary==2.9.10
+pytest-mock==3.12.0
+python-dotenv==1.0.0
+python-slugify==8.0.1
+gunicorn==21.2.0
+whitenoise==6.6.0
+django-ckeditor==6.7.1
+django-ckeditor-5==0.2.10
+# django-ckeditor-5==0.2.17

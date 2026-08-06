@@ -1,0 +1,88 @@
+{
+  "categories": [
+    {
+      "id": "air-care",
+      "slug": "air-care",
+      "image": "/image1.png",
+      "is_featured": true,
+      "translations": {
+        "uz": { "title": "Havo parvarishi" },
+        "ru": { "title": "Уход за воздухом" },
+        "en": { "title": "Air care" }
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "welcome-product",
+      "slug": "welcome-product",
+      "price": "0",
+      "discounted_price": null,
+      "is_available": true,
+      "featured": true,
+      "product_images": [{ "id": "welcome-image", "image": "/product.png" }],
+      "short_descriptions": [],
+      "barcodes": [],
+      "category": "air-care",
+      "translations": {
+        "uz": { "title": "Mahsulot katalogi", "description": "Mahsulotlaringizni <strong>/admin</strong> orqali qo'shing." },
+        "ru": { "title": "Каталог продукции", "description": "Добавляйте товары через <strong>/admin</strong>." },
+        "en": { "title": "Product catalogue", "description": "Add your products through <strong>/admin</strong>." }
+      }
+    }
+  ],
+  "banners": [
+    {
+      "id": "main-banner",
+      "web_image": "/hero.png",
+      "rsp_image": null,
+      "is_advertisement": false,
+      "product": "welcome-product",
+      "category": null,
+      "translations": {
+        "uz": { "title": "Air Time", "description": "Sifatli mahsulotlar katalogi" },
+        "ru": { "title": "Air Time", "description": "Каталог качественных продуктов" },
+        "en": { "title": "Air Time", "description": "A catalogue of quality products" }
+      }
+    },
+    {
+      "id": "featured-banner",
+      "web_image": "/featured.png",
+      "rsp_image": null,
+      "is_advertisement": true,
+      "product": "welcome-product",
+      "category": null,
+      "translations": {
+        "uz": { "title": "Yangi mahsulotlar", "description": "Takliflaringizni shu yerda ko'rsating" },
+        "ru": { "title": "Новые продукты", "description": "Покажите ваши предложения здесь" },
+        "en": { "title": "New products", "description": "Showcase your offers here" }
+      }
+    }
+  ],
+  "aboutCompany": [{
+    "id": "company",
+    "image": "/group.png",
+    "translations": {
+      "uz": { "title": "Air Time", "description": "<p>Kompaniyangiz haqida ma'lumotni admin paneldan tahrirlang.</p>" },
+      "ru": { "title": "Air Time", "description": "<p>Редактируйте информацию о компании в панели администратора.</p>" },
+      "en": { "title": "Air Time", "description": "<p>Edit your company information in the admin panel.</p>" }
+    }
+  }],
+  "aboutImages": [{ "id": "products", "image": "/group.png" }],
+  "brands": [],
+  "faqs": [],
+  "contact": {
+    "id": "contact",
+    "phone_1": "",
+    "phone_2": "",
+    "email": "",
+    "map": "",
+    "translations": {
+      "uz": { "address": "" },
+      "ru": { "address": "" },
+      "en": { "address": "" }
+    }
+  },
+  "social": { "id": "social", "instagram": "", "facebook": "", "telegram": "" },
+  "formEndpoint": ""
+}

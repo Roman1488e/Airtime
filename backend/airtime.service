@@ -1,0 +1,17 @@
+[Unit]
+Description=Airtime gunicorn daemon
+After=network.target
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/airtime.uz
+ExecStart=/var/www/airtime.uz/venv/bin/gunicorn \
+    --access-logfile /var/log/airtime/access.log \
+    --error-logfile /var/log/airtime/error.log \
+    --workers 3 \
+    --bind unix:/run/airtime.sock \
+    config.wsgi:application
+
+[Install]
+WantedBy=multi-user.target 

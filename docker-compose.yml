@@ -1,0 +1,114 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ./backend
+    container_name: airtime-backend
+    command: sh -c "python manage.py migrate && python manage.py collectstatic --noinput && python manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - ./backend:/app
+      - static_volume:/app/staticfiles
+      - ./backend/media:/app/media
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    depends_on:
+      - db
+    networks:
+      - airtime_network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: airtime-frontend
+    volumes:
+      - ./frontend:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./frontend/.env
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - airtime_network
+
+  db:
+    image: postgres:15
+    container_name: airtime-db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=airtime_db
+      - POSTGRES_USER=airtime_user
+      - POSTGRES_PASSWORD=airtime_password
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U airtime_user -d airtime_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - airtime_network
+
+  redis:
+    image: redis:6
+    container_name: airtime-redis
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    networks:
+      - airtime_network
+
+  nginx:
+    image: nginx:latest
+    container_name: airtime-nginx
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./certbot/www:/var/www/certbot
+      - ./certbot/conf:/etc/letsencrypt
+      - static_volume:/app/staticfiles
+      - ./backend/media:/app/media
+    depends_on:
+      - backend
+      - frontend
+    networks:
+      - airtime_network
+
+  certbot:
+    image: certbot/certbot
+    container_name: airtime-certbot
+    volumes:
+      - ./certbot/www:/var/www/certbot
+      - ./certbot/conf:/etc/letsencrypt
+    entrypoint: >
+      /bin/sh -c "trap exit TERM; while :; do
+      certbot renew --webroot -w /var/www/certbot --quiet;
+      sleep 12h;
+      done"
+    depends_on:
+      - nginx
+    networks:
+      - airtime_network
+
+volumes:
+  postgres_data:
+  static_volume:
+
+networks:
+  airtime_network:
+    driver: bridge

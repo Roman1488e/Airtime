@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/uploads
+public_folder: /uploads
+publish_mode: editorial_workflow
+
+collections:
+  - name: site
+    label: Website content
+    files:
+      - name: catalogue
+        label: Products, categories and pages
+        file: content/site.json
+        format: json
+        fields:
+          - { name: categories, label: Categories, widget: list, fields: [ { name: id, widget: string }, { name: slug, widget: string, hint: "Unique URL-safe value; do not change after publishing" }, { name: image, widget: image, required: false }, { name: is_featured, widget: boolean, default: false }, { name: translations, label: Translations, widget: object, fields: [ { name: uz, widget: object, fields: [ { name: title, widget: string } ] }, { name: ru, widget: object, fields: [ { name: title, widget: string } ] }, { name: en, widget: object, fields: [ { name: title, widget: string } ] } ] } ] }
+          - { name: products, label: Products, widget: list, fields: [ { name: id, widget: string }, { name: slug, widget: string, hint: "Unique URL-safe value; do not change after publishing" }, { name: category, widget: string, hint: "Enter a category slug from the Categories list above" }, { name: price, widget: string, required: false }, { name: discounted_price, widget: string, required: false }, { name: is_available, widget: boolean, default: true }, { name: featured, widget: boolean, default: false }, { name: product_images, label: Images, widget: list, fields: [ { name: id, widget: string }, { name: image, widget: image } ] }, { name: short_descriptions, widget: list, required: false, fields: [ { name: id, widget: string }, { name: key, widget: string }, { name: value, widget: markdown }, { name: translations, widget: object } ] }, { name: barcodes, widget: list, required: false, fields: [ { name: id, widget: string }, { name: key, widget: string }, { name: value, widget: string } ] }, { name: translations, label: Three languages, widget: object, fields: [ { name: uz, widget: object, fields: [ { name: title, widget: string }, { name: description, widget: markdown } ] }, { name: ru, widget: object, fields: [ { name: title, widget: string }, { name: description, widget: markdown } ] }, { name: en, widget: object, fields: [ { name: title, widget: string }, { name: description, widget: markdown } ] } ] } ] }
+          - { name: banners, label: Banners, widget: list, fields: [ { name: id, widget: string }, { name: web_image, widget: image }, { name: rsp_image, widget: image, required: false }, { name: is_advertisement, widget: boolean, default: false }, { name: product, widget: string, required: false }, { name: category, widget: string, required: false }, { name: translations, widget: object, fields: [ { name: uz, widget: object, fields: [ { name: title, widget: string }, { name: description, widget: markdown } ] }, { name: ru, widget: object, fields: [ { name: title, widget: string }, { name: description, widget: markdown } ] }, { name: en, widget: object, fields: [ { name: title, widget: string }, { name: description, widget: markdown } ] } ] } ] }
+          - { name: aboutCompany, label: Company section, widget: list, fields: [ { name: id, widget: string }, { name: image, widget: image, required: false }, { name: translations, widget: object, fields: [ { name: uz, widget: object, fields: [ { name: title, widget: string }, { name: description, widget: markdown } ] }, { name: ru, widget: object, fields: [ { name: title, widget: string }, { name: description, widget: markdown } ] }, { name: en, widget: object, fields: [ { name: title, widget: string }, { name: description, widget: markdown } ] } ] } ] }
+          - { name: contact, label: Contact details, widget: object, fields: [ { name: id, widget: hidden, default: contact }, { name: email, widget: string, required: false }, { name: phone_1, widget: string, required: false }, { name: phone_2, widget: string, required: false }, { name: map, widget: string, required: false }, { name: translations, widget: object, fields: [ { name: uz, widget: object, fields: [ { name: address, widget: string } ] }, { name: ru, widget: object, fields: [ { name: address, widget: string } ] }, { name: en, widget: object, fields: [ { name: address, widget: string } ] } ] } ] }
+          - { name: social, label: Social links, widget: object, fields: [ { name: id, widget: hidden, default: social }, { name: instagram, widget: string, required: false }, { name: facebook, widget: string, required: false }, { name: telegram, widget: string, required: false } ] }
+          - { name: formEndpoint, label: Contact form endpoint, widget: string, required: false, hint: "Optional Formspree endpoint. Leave empty to open the visitor's mail program." }
