@@ -1297,7 +1297,7 @@
   "aboutImages": [
     {
       "id": "products",
-      "image": "/about-airtime.jpg"
+      "image": "/group.png"
     }
   ],
   "banners": [
@@ -1325,7 +1325,7 @@
     },
     {
       "id": "featured-banner",
-      "web_image": "/featured.png",
+      "web_image": "/featured-products.jpg",
       "rsp_image": null,
       "is_advertisement": true,
       "product": "arabian-night-spray",
