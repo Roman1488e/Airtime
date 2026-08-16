@@ -39,18 +39,27 @@ export default async function Footer({ lang, dictionary }: FooterProps) {
               <Link
                 href={socilaLinks?.facebook || "#"}
                 className="text-gray-400 hover:text-white transition-colors"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
               </Link>
               <Link
                 href={socilaLinks?.instagram || "#"}
                 className="text-gray-400 hover:text-white transition-colors"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
               </Link>
               <Link
                 href={socilaLinks?.telegram || "#"}
                 className="text-gray-400 hover:text-white transition-colors"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Telegram"
               >
                 <BiLogoTelegram className="h-5 w-5" />
               </Link>
@@ -152,12 +161,24 @@ export default async function Footer({ lang, dictionary }: FooterProps) {
                     ? "Телефон:"
                     : "Telefon:"}
                 </span>
-                <Link
-                  href={`tel:+${contactInfo?.phone_1 || ""}`}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  {contactInfo?.phone_1 || ""}
-                </Link>
+                <div className="flex flex-col gap-1">
+                  {contactInfo?.phone_1 && (
+                    <Link
+                      href={`tel:${contactInfo.phone_1}`}
+                      className="text-gray-400 hover:text-white transition-colors"
+                    >
+                      {contactInfo.phone_1}
+                    </Link>
+                  )}
+                  {contactInfo?.phone_2 && (
+                    <Link
+                      href={`tel:${contactInfo.phone_2}`}
+                      className="text-gray-400 hover:text-white transition-colors"
+                    >
+                      {contactInfo.phone_2}
+                    </Link>
+                  )}
+                </div>
               </li>
               <li className="flex items-start space-x-2">
                 <span className="text-indigo-500">
@@ -176,7 +197,7 @@ export default async function Footer({ lang, dictionary }: FooterProps) {
         </div>
 
         {/* Copyright */}
-        <div className="pt-8 space-y-2 md:flex justify-between border-t border-gray-800 text-center text-gray-500 text-sm">
+        <div className="pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
           <p>
             &copy; {new Date().getFullYear()} Air Time.{" "}
             {lang === "en"
@@ -184,15 +205,6 @@ export default async function Footer({ lang, dictionary }: FooterProps) {
               : lang === "ru"
               ? "Все права защищены."
               : "Barcha huquqlar himoyalangan."}
-          </p>
-          <p className="text-gray-400">
-            Made with ❤️ by{" "}
-            <Link
-              href="https://nuqtauz.com"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              NUQTA
-            </Link>
           </p>
         </div>
       </div>

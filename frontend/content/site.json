@@ -1,19 +1,19 @@
 {
   "contact": {
     "id": "contact",
-    "phone_1": "3435352452345",
-    "phone_2": "",
-    "email": "",
-    "map": "",
+    "phone_1": "+998977743230",
+    "phone_2": "+998946036789",
+    "email": "info@airtime.uz",
+    "map": "https://www.google.com/maps?q=41.389676,69.284062&output=embed",
     "translations": {
       "uz": {
-        "address": "abc"
+        "address": "Toshkent tumani, Beshqo‘rg‘on aholi punkti, Karvon yo‘li ko‘chasi, 28A"
       },
       "ru": {
-        "address": "abc"
+        "address": "улица Карвон йули, 28A, населённый пункт Бешкурган, Ташкентский район"
       },
       "en": {
-        "address": "abc"
+        "address": "28A Karvon Yo‘li Street, Beshqo‘rg‘on settlement, Tashkent District"
       }
     }
   },
@@ -21,7 +21,7 @@
     {
       "id": "arabian-night-spray",
       "slug": "arabian-night-spray",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -72,7 +72,7 @@
     {
       "id": "arabian-night-aerosol",
       "slug": "arabian-night-aerosol",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -123,7 +123,7 @@
     {
       "id": "arabian-freshness-spray",
       "slug": "arabian-freshness-spray",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -174,7 +174,7 @@
     {
       "id": "arabian-tale-spray",
       "slug": "arabian-tale-spray",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -225,7 +225,7 @@
     {
       "id": "arctic-aerosol",
       "slug": "arctic-aerosol",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -276,7 +276,7 @@
     {
       "id": "white-rose-aerosol",
       "slug": "white-rose-aerosol",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -327,7 +327,7 @@
     {
       "id": "bulgarian-rose-aerosol",
       "slug": "bulgarian-rose-aerosol",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -378,7 +378,7 @@
     {
       "id": "oriental-fragrance-aerosol",
       "slug": "oriental-fragrance-aerosol",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -429,7 +429,7 @@
     {
       "id": "lily-aerosol",
       "slug": "lily-aerosol",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -480,7 +480,7 @@
     {
       "id": "lemon-aerosol",
       "slug": "lemon-aerosol",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -531,7 +531,7 @@
     {
       "id": "magnolia-cherry-blossom-aerosol",
       "slug": "magnolia-cherry-blossom-aerosol",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -582,7 +582,7 @@
     {
       "id": "ocean-spray",
       "slug": "ocean-spray",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -633,7 +633,7 @@
     {
       "id": "ocean-aerosol",
       "slug": "ocean-aerosol",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -684,7 +684,7 @@
     {
       "id": "orchid-aerosol",
       "slug": "orchid-aerosol",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -735,7 +735,7 @@
     {
       "id": "paris-aerosol",
       "slug": "paris-aerosol",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -786,7 +786,7 @@
     {
       "id": "paris-spray",
       "slug": "paris-spray",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -837,7 +837,7 @@
     {
       "id": "after-rain-aerosol",
       "slug": "after-rain-aerosol",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -888,7 +888,7 @@
     {
       "id": "festive-evening-aerosol",
       "slug": "festive-evening-aerosol",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -939,7 +939,7 @@
     {
       "id": "fresh-lily-of-the-valley-aerosol",
       "slug": "fresh-lily-of-the-valley-aerosol",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -990,7 +990,7 @@
     {
       "id": "tropic-aerosol",
       "slug": "tropic-aerosol",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -1041,7 +1041,7 @@
     {
       "id": "apple-aerosol",
       "slug": "apple-aerosol",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -1092,7 +1092,7 @@
     {
       "id": "white-tea-fruits-aerosol",
       "slug": "white-tea-fruits-aerosol",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -1143,7 +1143,7 @@
     {
       "id": "forest-berries-aerosol",
       "slug": "forest-berries-aerosol",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -1194,7 +1194,7 @@
     {
       "id": "sultanate-spray",
       "slug": "sultanate-spray",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -1245,7 +1245,7 @@
     {
       "id": "sultanate-aerosol",
       "slug": "sultanate-aerosol",
-      "category": "air-fresheners",
+      "category": "aerosol-air-fresheners",
       "price": "0",
       "discounted_price": null,
       "is_available": true,
@@ -1297,7 +1297,7 @@
   "aboutImages": [
     {
       "id": "products",
-      "image": "/group.png"
+      "image": "/about-airtime.jpg"
     }
   ],
   "banners": [
@@ -1349,14 +1349,14 @@
   "brands": [],
   "social": {
     "id": "social",
-    "instagram": "test",
-    "facebook": "test Facebook",
-    "telegram": "@greatpool"
+    "instagram": "https://www.instagram.com/airtimeuz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    "facebook": "https://www.facebook.com/uzairtime/",
+    "telegram": "https://t.me/Airtime_support_bot"
   },
   "aboutCompany": [
     {
       "id": "company",
-      "image": "/group.png",
+      "image": "/about-airtime.jpg",
       "translations": {
         "uz": {
           "title": "Air Time",
@@ -1376,19 +1376,36 @@
   "formEndpoint": "/api/contact",
   "categories": [
     {
-      "id": "air-fresheners",
-      "slug": "air-fresheners",
+      "id": "aerosol-air-fresheners",
+      "slug": "aerosol-air-fresheners",
+      "image": "/products/arctic-aerosol.jpg",
+      "is_featured": true,
+      "translations": {
+        "uz": {
+          "title": "Aerozol havo xushbo‘ylantirgichlari"
+        },
+        "ru": {
+          "title": "Освежитель Аэрозоль"
+        },
+        "en": {
+          "title": "Aerosol air fresheners"
+        }
+      }
+    },
+    {
+      "id": "spray-air-fresheners",
+      "slug": "spray-air-fresheners",
       "image": "/products/ocean-spray.jpg",
       "is_featured": true,
       "translations": {
         "uz": {
-          "title": "Havo xushbo‘ylantirgichlari"
+          "title": "Sprey havo xushbo‘ylantirgichlari"
         },
         "ru": {
-          "title": "Освежители воздуха"
+          "title": "Спрей освежитель"
         },
         "en": {
-          "title": "Air fresheners"
+          "title": "Air freshener sprays"
         }
       }
     }
