@@ -1325,7 +1325,7 @@
     },
     {
       "id": "featured-banner",
-      "web_image": "/featured-products.jpg",
+      "web_image": "/featured-products.png",
       "rsp_image": null,
       "is_advertisement": true,
       "product": "arabian-night-spray",
