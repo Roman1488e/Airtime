@@ -142,7 +142,7 @@ export default function HeroCarousel({
 
           {slide.ctaLink && (
             <Button
-              href={`${lang}${slide.ctaLink}`}
+              href={`/${lang}${slide.ctaLink}`}
               className="button-primary bg-white text-[#211d4f] shadow-xl hover:bg-white"
             >
               {dictionary.common.learnMore}

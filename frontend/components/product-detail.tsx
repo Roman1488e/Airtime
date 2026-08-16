@@ -164,6 +164,9 @@ export default function ProductDetail({ product, lang }: ProductDetailProps) {
       ? product.category.translations[lang].title
       : product.category.translations.uz?.title || "";
 
+  const currentPrice = Number(product.discounted_price || product.price);
+  const hasPrice = Number.isFinite(currentPrice) && currentPrice > 0;
+
   // Structured data for product
   const structuredData = {
     "@context": "https://schema.org/",
@@ -177,18 +180,20 @@ export default function ProductDetail({ product, lang }: ProductDetailProps) {
       "@type": "Brand",
       name: "Air Time",
     },
-    offers: {
-      "@type": "Offer",
-      url: typeof window !== "undefined" ? window.location.href : "",
-      priceCurrency: "UZS",
-      price: product.discounted_price || product.price,
-      priceValidUntil: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000)
-        .toISOString()
-        .split("T")[0],
-      availability: product.is_available
-        ? "https://schema.org/InStock"
-        : "https://schema.org/OutOfStock",
-    },
+    ...(hasPrice && {
+      offers: {
+        "@type": "Offer",
+        url: typeof window !== "undefined" ? window.location.href : "",
+        priceCurrency: "UZS",
+        price: product.discounted_price || product.price,
+        priceValidUntil: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000)
+          .toISOString()
+          .split("T")[0],
+        availability: product.is_available
+          ? "https://schema.org/InStock"
+          : "https://schema.org/OutOfStock",
+      },
+    }),
   };
 
   return (
@@ -307,7 +312,7 @@ export default function ProductDetail({ product, lang }: ProductDetailProps) {
             <p className="text-gray-700 mb-6 flex-grow">{productDescription}</p>
 
             <div className="space-y-6 mt-auto">
-              <div className="flex items-baseline">
+              {hasPrice && <div className="flex items-baseline">
                 {product.discounted_price ? (
                   <>
                     <span className="text-3xl font-bold text-primary">
@@ -334,7 +339,7 @@ export default function ProductDetail({ product, lang }: ProductDetailProps) {
                     }).format(Number(product.price))}
                   </span>
                 )}
-              </div>
+              </div>}
 
               {isMounted && product.barcodes && product.barcodes.length > 0 && (
                 <div className="pt-4 border-t border-gray-200">

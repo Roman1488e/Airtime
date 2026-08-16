@@ -425,6 +425,8 @@ export default function ProductsClient({
                     const hasDiscount =
                       product.discounted_price !== null &&
                       product.discounted_price !== "";
+                    const hasPrice =
+                      Number(product.discounted_price || product.price) > 0;
 
                     return (
                       <div
@@ -458,7 +460,7 @@ export default function ProductsClient({
                           </div>
 
                           <div className="mt-auto flex items-center justify-between">
-                            <div className="flex items-center">
+                            {hasPrice && <div className="flex items-center">
                               {hasDiscount ? (
                                 <>
                                   <span className="font-bold text-lg text-indigo-700">
@@ -473,7 +475,7 @@ export default function ProductsClient({
                                   ${product.price}
                                 </span>
                               )}
-                            </div>
+                            </div>}
 
                             <Link
                               href={`/${lang}/products/${product.slug}`}

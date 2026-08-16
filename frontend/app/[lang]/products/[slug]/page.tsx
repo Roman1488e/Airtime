@@ -209,6 +209,8 @@ export default async function ProductPage({
   }
 
   // Add structured data for the product
+  const currentPrice = Number(product.discounted_price || product.price);
+  const hasPrice = Number.isFinite(currentPrice) && currentPrice > 0;
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -219,12 +221,14 @@ export default async function ProductPage({
       product.product_images?.length > 0
         ? [product.product_images[0].image]
         : [],
-    offers: {
-      "@type": "Offer",
-      price: String(product.discounted_price || product.price),
-      priceCurrency: "UZS",
-      url: `https://airtime.uz/${lang}/products/${slug}`,
-    },
+    ...(hasPrice && {
+      offers: {
+        "@type": "Offer",
+        price: String(product.discounted_price || product.price),
+        priceCurrency: "UZS",
+        url: `https://airtime.uz/${lang}/products/${slug}`,
+      },
+    }),
     brand: {
       "@type": "Brand",
       name: "Air Time",

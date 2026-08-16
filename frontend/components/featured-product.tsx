@@ -64,7 +64,9 @@ export default function FeaturedProduct({
                   imagePosition === "right" ? "text-right" : "text-left"
                 )}
               >
-                {ctaLink && <Button href={ctaLink!}>{ctaText}</Button>}
+                {ctaLink && (
+                  <Button href={`/${lang}${ctaLink}`}>{ctaText}</Button>
+                )}
               </div>
             </div>
           </div>
