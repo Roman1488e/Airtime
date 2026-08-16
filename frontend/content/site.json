@@ -19,19 +19,32 @@
   },
   "products": [
     {
-      "id": "arabian-night-spray",
-      "slug": "arabian-night-spray",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": true,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Arab kechasi» — purkagichli havo xushbo‘ylantirgichi",
+          "description": "Air Time «Arab kechasi» — iliq ziravorlar va sharqona ohanglarga boy chuqur ifor. Trigger purkagichli flakon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Арабская ночь» — освежитель воздуха с триггерным распылителем",
+          "description": "Air Time «Арабская ночь» раскрывается глубоким ароматом с тёплыми пряными и восточными оттенками. Флакон с триггерным распылителем подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Arabian Night — trigger-spray air freshener",
+          "description": "Air Time Arabian Night offers a deep fragrance with warm spicy and oriental tones. The trigger-spray bottle is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "arabian-night-spray-image",
           "image": "/products/arabian-night-spray.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "arabian-night-spray",
+      "featured": true,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "arabian-night-spray-format",
@@ -53,36 +66,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Arab kechasi» — purkagichli havo xushbo‘ylantirgichi",
-          "description": "Air Time «Arab kechasi» — iliq ziravorlar va sharqona ohanglarga boy chuqur ifor. Trigger purkagichli flakon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Арабская ночь» — освежитель воздуха с триггерным распылителем",
-          "description": "Air Time «Арабская ночь» раскрывается глубоким ароматом с тёплыми пряными и восточными оттенками. Флакон с триггерным распылителем подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Arabian Night — trigger-spray air freshener",
-          "description": "Air Time Arabian Night offers a deep fragrance with warm spicy and oriental tones. The trigger-spray bottle is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "arabian-night-spray",
+      "category": "spray-air-fresheners"
     },
     {
-      "id": "arabian-night-aerosol",
-      "slug": "arabian-night-aerosol",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": false,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Arab kechasi» — aerozol havo xushbo‘ylantirgichi",
+          "description": "Air Time «Arab kechasi» — iliq ziravorlar va sharqona ohanglarga boy chuqur ifor. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Арабская ночь» — аэрозольный освежитель воздуха",
+          "description": "Air Time «Арабская ночь» раскрывается глубоким ароматом с тёплыми пряными и восточными оттенками. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Arabian Night — aerosol air freshener",
+          "description": "Air Time Arabian Night offers a deep fragrance with warm spicy and oriental tones. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "arabian-night-aerosol-image",
           "image": "/products/arabian-night-aerosol.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "arabian-night-aerosol",
+      "featured": false,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "arabian-night-aerosol-format",
@@ -104,36 +117,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Arab kechasi» — aerozol havo xushbo‘ylantirgichi",
-          "description": "Air Time «Arab kechasi» — iliq ziravorlar va sharqona ohanglarga boy chuqur ifor. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Арабская ночь» — аэрозольный освежитель воздуха",
-          "description": "Air Time «Арабская ночь» раскрывается глубоким ароматом с тёплыми пряными и восточными оттенками. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Arabian Night — aerosol air freshener",
-          "description": "Air Time Arabian Night offers a deep fragrance with warm spicy and oriental tones. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "arabian-night-aerosol",
+      "category": "aerosol-air-fresheners"
     },
     {
-      "id": "arabian-freshness-spray",
-      "slug": "arabian-freshness-spray",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": true,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Arab tarovati» — purkagichli havo xushbo‘ylantirgichi",
+          "description": "Air Time «Arab tarovati» — yengil yangilikni nafis sharqona ohanglar bilan uyg‘unlashtirgan ifor. Trigger purkagichli flakon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Арабская свежесть» — освежитель воздуха с триггерным распылителем",
+          "description": "Air Time «Арабская свежесть» раскрывается лёгкой свежестью с изящными восточными оттенками. Флакон с триггерным распылителем подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Arabian Freshness — trigger-spray air freshener",
+          "description": "Air Time Arabian Freshness offers light freshness balanced with elegant oriental tones. The trigger-spray bottle is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "arabian-freshness-spray-image",
           "image": "/products/arabian-freshness-spray.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "arabian-freshness-spray",
+      "featured": true,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "arabian-freshness-spray-format",
@@ -155,36 +168,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Arab tarovati» — purkagichli havo xushbo‘ylantirgichi",
-          "description": "Air Time «Arab tarovati» — yengil yangilikni nafis sharqona ohanglar bilan uyg‘unlashtirgan ifor. Trigger purkagichli flakon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Арабская свежесть» — освежитель воздуха с триггерным распылителем",
-          "description": "Air Time «Арабская свежесть» раскрывается лёгкой свежестью с изящными восточными оттенками. Флакон с триггерным распылителем подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Arabian Freshness — trigger-spray air freshener",
-          "description": "Air Time Arabian Freshness offers light freshness balanced with elegant oriental tones. The trigger-spray bottle is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "arabian-freshness-spray",
+      "category": "spray-air-fresheners"
     },
     {
-      "id": "arabian-tale-spray",
-      "slug": "arabian-tale-spray",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": false,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Arab ertagi» — purkagichli havo xushbo‘ylantirgichi",
+          "description": "Air Time «Arab ertagi» — shirin, iliq va sirli sharqona tusdagi ifor. Trigger purkagichli flakon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Арабская сказка» — освежитель воздуха с триггерным распылителем",
+          "description": "Air Time «Арабская сказка» раскрывается сладковатым, тёплым и загадочным восточным характером. Флакон с триггерным распылителем подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Arabian Tale — trigger-spray air freshener",
+          "description": "Air Time Arabian Tale offers a sweet, warm and mysterious oriental character. The trigger-spray bottle is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "arabian-tale-spray-image",
           "image": "/products/arabian-tale-spray.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "arabian-tale-spray",
+      "featured": false,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "arabian-tale-spray-format",
@@ -206,36 +219,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Arab ertagi» — purkagichli havo xushbo‘ylantirgichi",
-          "description": "Air Time «Arab ertagi» — shirin, iliq va sirli sharqona tusdagi ifor. Trigger purkagichli flakon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Арабская сказка» — освежитель воздуха с триггерным распылителем",
-          "description": "Air Time «Арабская сказка» раскрывается сладковатым, тёплым и загадочным восточным характером. Флакон с триггерным распылителем подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Arabian Tale — trigger-spray air freshener",
-          "description": "Air Time Arabian Tale offers a sweet, warm and mysterious oriental character. The trigger-spray bottle is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "arabian-tale-spray",
+      "category": "spray-air-fresheners"
     },
     {
-      "id": "arctic-aerosol",
-      "slug": "arctic-aerosol",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": true,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Arktika» — aerozol havo xushbo‘ylantirgichi",
+          "description": "Air Time «Arktika» — muzdek havo va musaffo tozalikni eslatuvchi salqin ifor. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Арктика» — аэрозольный освежитель воздуха",
+          "description": "Air Time «Арктика» раскрывается прохладным ароматом, напоминающим морозный воздух и чистоту. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Arctic — aerosol air freshener",
+          "description": "Air Time Arctic offers a crisp fragrance inspired by cool air and clean freshness. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "arctic-aerosol-image",
           "image": "/products/arctic-aerosol.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "arctic-aerosol",
+      "featured": true,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "arctic-aerosol-format",
@@ -257,36 +270,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Arktika» — aerozol havo xushbo‘ylantirgichi",
-          "description": "Air Time «Arktika» — muzdek havo va musaffo tozalikni eslatuvchi salqin ifor. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Арктика» — аэрозольный освежитель воздуха",
-          "description": "Air Time «Арктика» раскрывается прохладным ароматом, напоминающим морозный воздух и чистоту. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Arctic — aerosol air freshener",
-          "description": "Air Time Arctic offers a crisp fragrance inspired by cool air and clean freshness. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "arctic-aerosol",
+      "category": "aerosol-air-fresheners"
     },
     {
-      "id": "white-rose-aerosol",
-      "slug": "white-rose-aerosol",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": false,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Oq atirgul» — aerozol havo xushbo‘ylantirgichi",
+          "description": "Air Time «Oq atirgul» — oq atirgulning yumshoq va nafis gul ifori. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Белая роза» — аэрозольный освежитель воздуха",
+          "description": "Air Time «Белая роза» раскрывается мягким и утончённым ароматом белой розы. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time White Rose — aerosol air freshener",
+          "description": "Air Time White Rose offers the soft and delicate floral scent of white rose. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "white-rose-aerosol-image",
           "image": "/products/white-rose-aerosol.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "white-rose-aerosol",
+      "featured": false,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "white-rose-aerosol-format",
@@ -308,36 +321,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Oq atirgul» — aerozol havo xushbo‘ylantirgichi",
-          "description": "Air Time «Oq atirgul» — oq atirgulning yumshoq va nafis gul ifori. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Белая роза» — аэрозольный освежитель воздуха",
-          "description": "Air Time «Белая роза» раскрывается мягким и утончённым ароматом белой розы. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time White Rose — aerosol air freshener",
-          "description": "Air Time White Rose offers the soft and delicate floral scent of white rose. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "white-rose-aerosol",
+      "category": "aerosol-air-fresheners"
     },
     {
-      "id": "bulgarian-rose-aerosol",
-      "slug": "bulgarian-rose-aerosol",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": false,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Bolgar atirguli» — aerozol havo xushbo‘ylantirgichi",
+          "description": "Air Time «Bolgar atirguli» — to‘yingan va nafis atirgul ifori. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Болгарская роза» — аэрозольный освежитель воздуха",
+          "description": "Air Time «Болгарская роза» раскрывается насыщенным и утончённым ароматом розы. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Bulgarian Rose — aerosol air freshener",
+          "description": "Air Time Bulgarian Rose offers a rich and refined rose fragrance. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "bulgarian-rose-aerosol-image",
           "image": "/products/bulgarian-rose-aerosol.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "bulgarian-rose-aerosol",
+      "featured": false,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "bulgarian-rose-aerosol-format",
@@ -359,36 +372,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Bolgar atirguli» — aerozol havo xushbo‘ylantirgichi",
-          "description": "Air Time «Bolgar atirguli» — to‘yingan va nafis atirgul ifori. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Болгарская роза» — аэрозольный освежитель воздуха",
-          "description": "Air Time «Болгарская роза» раскрывается насыщенным и утончённым ароматом розы. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Bulgarian Rose — aerosol air freshener",
-          "description": "Air Time Bulgarian Rose offers a rich and refined rose fragrance. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "bulgarian-rose-aerosol",
+      "category": "aerosol-air-fresheners"
     },
     {
-      "id": "oriental-fragrance-aerosol",
-      "slug": "oriental-fragrance-aerosol",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": true,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Sharqona ifor» — aerozol havo xushbo‘ylantirgichi",
+          "description": "Air Time «Sharqona ifor» — iliq, ziravorli va shirin sharqona ohanglar uyg‘unligi. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Восточный аромат» — аэрозольный освежитель воздуха",
+          "description": "Air Time «Восточный аромат» раскрывается сочетанием тёплых, пряных и сладковатых восточных оттенков. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Oriental Fragrance — aerosol air freshener",
+          "description": "Air Time Oriental Fragrance offers a blend of warm, spicy and gently sweet oriental tones. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "oriental-fragrance-aerosol-image",
           "image": "/products/oriental-fragrance-aerosol.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "oriental-fragrance-aerosol",
+      "featured": true,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "oriental-fragrance-aerosol-format",
@@ -410,36 +423,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Sharqona ifor» — aerozol havo xushbo‘ylantirgichi",
-          "description": "Air Time «Sharqona ifor» — iliq, ziravorli va shirin sharqona ohanglar uyg‘unligi. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Восточный аромат» — аэрозольный освежитель воздуха",
-          "description": "Air Time «Восточный аромат» раскрывается сочетанием тёплых, пряных и сладковатых восточных оттенков. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Oriental Fragrance — aerosol air freshener",
-          "description": "Air Time Oriental Fragrance offers a blend of warm, spicy and gently sweet oriental tones. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "oriental-fragrance-aerosol",
+      "category": "aerosol-air-fresheners"
     },
     {
-      "id": "lily-aerosol",
-      "slug": "lily-aerosol",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": false,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Liliya» — aerozol havo xushbo‘ylantirgichi",
+          "description": "Air Time «Liliya» — liliya gullarining mayin va toza ifori. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Лилия» — аэрозольный освежитель воздуха",
+          "description": "Air Time «Лилия» раскрывается нежным и чистым ароматом цветущей лилии. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Lily — aerosol air freshener",
+          "description": "Air Time Lily offers the gentle, clean fragrance of blooming lilies. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "lily-aerosol-image",
           "image": "/products/lily-aerosol.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "lily-aerosol",
+      "featured": false,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "lily-aerosol-format",
@@ -461,36 +474,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Liliya» — aerozol havo xushbo‘ylantirgichi",
-          "description": "Air Time «Liliya» — liliya gullarining mayin va toza ifori. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Лилия» — аэрозольный освежитель воздуха",
-          "description": "Air Time «Лилия» раскрывается нежным и чистым ароматом цветущей лилии. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Lily — aerosol air freshener",
-          "description": "Air Time Lily offers the gentle, clean fragrance of blooming lilies. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "lily-aerosol",
+      "category": "aerosol-air-fresheners"
     },
     {
-      "id": "lemon-aerosol",
-      "slug": "lemon-aerosol",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": false,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Limon» — aerozol havo xushbo‘ylantirgichi",
+          "description": "Air Time «Limon» — yorqin va tetiklantiruvchi sitrus ifori. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Лимон» — аэрозольный освежитель воздуха",
+          "description": "Air Time «Лимон» раскрывается ярким и бодрящим цитрусовым ароматом. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Lemon — aerosol air freshener",
+          "description": "Air Time Lemon offers a bright and uplifting citrus fragrance. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "lemon-aerosol-image",
           "image": "/products/lemon-aerosol.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "lemon-aerosol",
+      "featured": false,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "lemon-aerosol-format",
@@ -512,36 +525,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Limon» — aerozol havo xushbo‘ylantirgichi",
-          "description": "Air Time «Limon» — yorqin va tetiklantiruvchi sitrus ifori. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Лимон» — аэрозольный освежитель воздуха",
-          "description": "Air Time «Лимон» раскрывается ярким и бодрящим цитрусовым ароматом. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Lemon — aerosol air freshener",
-          "description": "Air Time Lemon offers a bright and uplifting citrus fragrance. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "lemon-aerosol",
+      "category": "aerosol-air-fresheners"
     },
     {
-      "id": "magnolia-cherry-blossom-aerosol",
-      "slug": "magnolia-cherry-blossom-aerosol",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": true,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Magnoliya va gullagan olcha» — aerozol havo xushbo‘ylantirgichi",
+          "description": "Air Time «Magnoliya va gullagan olcha» — magnoliya va gullagan olchaning nafis bahoriy ifori. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Магнолия и цветущая вишня» — аэрозольный освежитель воздуха",
+          "description": "Air Time «Магнолия и цветущая вишня» раскрывается нежным весенним сочетанием магнолии и цветущей вишни. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Magnolia & Cherry Blossom — aerosol air freshener",
+          "description": "Air Time Magnolia & Cherry Blossom offers a delicate spring blend of magnolia and cherry blossom. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "magnolia-cherry-blossom-aerosol-image",
           "image": "/products/magnolia-cherry-blossom-aerosol.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "magnolia-cherry-blossom-aerosol",
+      "featured": true,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "magnolia-cherry-blossom-aerosol-format",
@@ -563,36 +576,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Magnoliya va gullagan olcha» — aerozol havo xushbo‘ylantirgichi",
-          "description": "Air Time «Magnoliya va gullagan olcha» — magnoliya va gullagan olchaning nafis bahoriy ifori. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Магнолия и цветущая вишня» — аэрозольный освежитель воздуха",
-          "description": "Air Time «Магнолия и цветущая вишня» раскрывается нежным весенним сочетанием магнолии и цветущей вишни. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Magnolia & Cherry Blossom — aerosol air freshener",
-          "description": "Air Time Magnolia & Cherry Blossom offers a delicate spring blend of magnolia and cherry blossom. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "magnolia-cherry-blossom-aerosol",
+      "category": "aerosol-air-fresheners"
     },
     {
-      "id": "ocean-spray",
-      "slug": "ocean-spray",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": true,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Okean» — purkagichli havo xushbo‘ylantirgichi",
+          "description": "Air Time «Okean» — dengiz shabadasi va musaffo suvni eslatuvchi salqin ifor. Trigger purkagichli flakon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Океан» — освежитель воздуха с триггерным распылителем",
+          "description": "Air Time «Океан» раскрывается свежим ароматом морского бриза и чистой воды. Флакон с триггерным распылителем подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Ocean — trigger-spray air freshener",
+          "description": "Air Time Ocean offers a fresh fragrance inspired by sea breeze and clear water. The trigger-spray bottle is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "ocean-spray-image",
           "image": "/products/ocean-spray.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "ocean-spray",
+      "featured": true,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "ocean-spray-format",
@@ -614,36 +627,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Okean» — purkagichli havo xushbo‘ylantirgichi",
-          "description": "Air Time «Okean» — dengiz shabadasi va musaffo suvni eslatuvchi salqin ifor. Trigger purkagichli flakon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Океан» — освежитель воздуха с триггерным распылителем",
-          "description": "Air Time «Океан» раскрывается свежим ароматом морского бриза и чистой воды. Флакон с триггерным распылителем подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Ocean — trigger-spray air freshener",
-          "description": "Air Time Ocean offers a fresh fragrance inspired by sea breeze and clear water. The trigger-spray bottle is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "ocean-spray",
+      "category": "spray-air-fresheners"
     },
     {
-      "id": "ocean-aerosol",
-      "slug": "ocean-aerosol",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": false,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Okean» — aerozol havo xushbo‘ylantirgichi",
+          "description": "Air Time «Okean» — dengiz shabadasi va musaffo suvni eslatuvchi salqin ifor. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Океан» — аэрозольный освежитель воздуха",
+          "description": "Air Time «Океан» раскрывается свежим ароматом морского бриза и чистой воды. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Ocean — aerosol air freshener",
+          "description": "Air Time Ocean offers a fresh fragrance inspired by sea breeze and clear water. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "ocean-aerosol-image",
           "image": "/products/ocean-aerosol.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "ocean-aerosol",
+      "featured": false,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "ocean-aerosol-format",
@@ -665,36 +678,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Okean» — aerozol havo xushbo‘ylantirgichi",
-          "description": "Air Time «Okean» — dengiz shabadasi va musaffo suvni eslatuvchi salqin ifor. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Океан» — аэрозольный освежитель воздуха",
-          "description": "Air Time «Океан» раскрывается свежим ароматом морского бриза и чистой воды. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Ocean — aerosol air freshener",
-          "description": "Air Time Ocean offers a fresh fragrance inspired by sea breeze and clear water. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "ocean-aerosol",
+      "category": "aerosol-air-fresheners"
     },
     {
-      "id": "orchid-aerosol",
-      "slug": "orchid-aerosol",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": false,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Orxideya» — aerozol havo xushbo‘ylantirgichi",
+          "description": "Air Time «Orxideya» — orxideyaning nafis va yengil shirin gul ifori. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Орхидея» — аэрозольный освежитель воздуха",
+          "description": "Air Time «Орхидея» раскрывается изящным цветочным ароматом орхидеи с лёгкой сладостью. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Orchid — aerosol air freshener",
+          "description": "Air Time Orchid offers an elegant orchid fragrance with a softly sweet floral tone. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "orchid-aerosol-image",
           "image": "/products/orchid-aerosol.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "orchid-aerosol",
+      "featured": false,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "orchid-aerosol-format",
@@ -716,36 +729,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Orxideya» — aerozol havo xushbo‘ylantirgichi",
-          "description": "Air Time «Orxideya» — orxideyaning nafis va yengil shirin gul ifori. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Орхидея» — аэрозольный освежитель воздуха",
-          "description": "Air Time «Орхидея» раскрывается изящным цветочным ароматом орхидеи с лёгкой сладостью. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Orchid — aerosol air freshener",
-          "description": "Air Time Orchid offers an elegant orchid fragrance with a softly sweet floral tone. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "orchid-aerosol",
+      "category": "aerosol-air-fresheners"
     },
     {
-      "id": "paris-aerosol",
-      "slug": "paris-aerosol",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": false,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Parij» — aerozol havo xushbo‘ylantirgichi",
+          "description": "Air Time «Parij» — nafisonalik va shahar kayfiyatini uyg‘unlashtirgan zamonaviy ifor. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Париж» — аэрозольный освежитель воздуха",
+          "description": "Air Time «Париж» раскрывается современным ароматом с элегантным городским характером. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Paris — aerosol air freshener",
+          "description": "Air Time Paris offers a modern fragrance with an elegant metropolitan character. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "paris-aerosol-image",
           "image": "/products/paris-aerosol.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "paris-aerosol",
+      "featured": false,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "paris-aerosol-format",
@@ -767,36 +780,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Parij» — aerozol havo xushbo‘ylantirgichi",
-          "description": "Air Time «Parij» — nafisonalik va shahar kayfiyatini uyg‘unlashtirgan zamonaviy ifor. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Париж» — аэрозольный освежитель воздуха",
-          "description": "Air Time «Париж» раскрывается современным ароматом с элегантным городским характером. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Paris — aerosol air freshener",
-          "description": "Air Time Paris offers a modern fragrance with an elegant metropolitan character. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "paris-aerosol",
+      "category": "aerosol-air-fresheners"
     },
     {
-      "id": "paris-spray",
-      "slug": "paris-spray",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": false,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Parij» — purkagichli havo xushbo‘ylantirgichi",
+          "description": "Air Time «Parij» — nafisonalik va shahar kayfiyatini uyg‘unlashtirgan zamonaviy ifor. Trigger purkagichli flakon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Париж» — освежитель воздуха с триггерным распылителем",
+          "description": "Air Time «Париж» раскрывается современным ароматом с элегантным городским характером. Флакон с триггерным распылителем подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Paris — trigger-spray air freshener",
+          "description": "Air Time Paris offers a modern fragrance with an elegant metropolitan character. The trigger-spray bottle is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "paris-spray-image",
           "image": "/products/paris-spray.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "paris-spray",
+      "featured": false,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "paris-spray-format",
@@ -818,36 +831,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Parij» — purkagichli havo xushbo‘ylantirgichi",
-          "description": "Air Time «Parij» — nafisonalik va shahar kayfiyatini uyg‘unlashtirgan zamonaviy ifor. Trigger purkagichli flakon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Париж» — освежитель воздуха с триггерным распылителем",
-          "description": "Air Time «Париж» раскрывается современным ароматом с элегантным городским характером. Флакон с триггерным распылителем подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Paris — trigger-spray air freshener",
-          "description": "Air Time Paris offers a modern fragrance with an elegant metropolitan character. The trigger-spray bottle is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "paris-spray",
+      "category": "spray-air-fresheners"
     },
     {
-      "id": "after-rain-aerosol",
-      "slug": "after-rain-aerosol",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": true,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Yomg‘irdan so‘ng» — aerozol havo xushbo‘ylantirgichi",
+          "description": "Air Time «Yomg‘irdan so‘ng» — yomg‘irdan keyingi toza havo va nam yashillikni eslatuvchi ifor. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «После дождя» — аэрозольный освежитель воздуха",
+          "description": "Air Time «После дождя» раскрывается свежестью чистого воздуха и влажной зелени после дождя. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time After the Rain — aerosol air freshener",
+          "description": "Air Time After the Rain offers the freshness of clean air and damp greenery after rainfall. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "after-rain-aerosol-image",
           "image": "/products/after-rain-aerosol.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "after-rain-aerosol",
+      "featured": true,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "after-rain-aerosol-format",
@@ -869,36 +882,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Yomg‘irdan so‘ng» — aerozol havo xushbo‘ylantirgichi",
-          "description": "Air Time «Yomg‘irdan so‘ng» — yomg‘irdan keyingi toza havo va nam yashillikni eslatuvchi ifor. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «После дождя» — аэрозольный освежитель воздуха",
-          "description": "Air Time «После дождя» раскрывается свежестью чистого воздуха и влажной зелени после дождя. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time After the Rain — aerosol air freshener",
-          "description": "Air Time After the Rain offers the freshness of clean air and damp greenery after rainfall. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "after-rain-aerosol",
+      "category": "aerosol-air-fresheners"
     },
     {
-      "id": "festive-evening-aerosol",
-      "slug": "festive-evening-aerosol",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": false,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Bayram oqshomi» — aerozol havo xushbo‘ylantirgichi",
+          "description": "Air Time «Bayram oqshomi» — iliq, xushkayfiyat va nafis bayramona ifor. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Праздничный вечер» — аэрозольный освежитель воздуха",
+          "description": "Air Time «Праздничный вечер» раскрывается тёплым, нарядным и уютным праздничным ароматом. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Festive Evening — aerosol air freshener",
+          "description": "Air Time Festive Evening offers a warm, polished and inviting festive fragrance. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "festive-evening-aerosol-image",
           "image": "/products/festive-evening-aerosol.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "festive-evening-aerosol",
+      "featured": false,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "festive-evening-aerosol-format",
@@ -920,36 +933,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Bayram oqshomi» — aerozol havo xushbo‘ylantirgichi",
-          "description": "Air Time «Bayram oqshomi» — iliq, xushkayfiyat va nafis bayramona ifor. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Праздничный вечер» — аэрозольный освежитель воздуха",
-          "description": "Air Time «Праздничный вечер» раскрывается тёплым, нарядным и уютным праздничным ароматом. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Festive Evening — aerosol air freshener",
-          "description": "Air Time Festive Evening offers a warm, polished and inviting festive fragrance. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "festive-evening-aerosol",
+      "category": "aerosol-air-fresheners"
     },
     {
-      "id": "fresh-lily-of-the-valley-aerosol",
-      "slug": "fresh-lily-of-the-valley-aerosol",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": false,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Yangi landish» — aerozol havo xushbo‘ylantirgichi",
+          "description": "Air Time «Yangi landish» — landish gullarining yengil, yashil va bahoriy ifori. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Свежий ландыш» — аэрозольный освежитель воздуха",
+          "description": "Air Time «Свежий ландыш» раскрывается лёгким зелёным и весенним ароматом ландыша. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Fresh Lily of the Valley — aerosol air freshener",
+          "description": "Air Time Fresh Lily of the Valley offers a light, green and springlike lily-of-the-valley fragrance. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "fresh-lily-of-the-valley-aerosol-image",
           "image": "/products/fresh-lily-of-the-valley-aerosol.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "fresh-lily-of-the-valley-aerosol",
+      "featured": false,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "fresh-lily-of-the-valley-aerosol-format",
@@ -971,36 +984,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Yangi landish» — aerozol havo xushbo‘ylantirgichi",
-          "description": "Air Time «Yangi landish» — landish gullarining yengil, yashil va bahoriy ifori. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Свежий ландыш» — аэрозольный освежитель воздуха",
-          "description": "Air Time «Свежий ландыш» раскрывается лёгким зелёным и весенним ароматом ландыша. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Fresh Lily of the Valley — aerosol air freshener",
-          "description": "Air Time Fresh Lily of the Valley offers a light, green and springlike lily-of-the-valley fragrance. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "fresh-lily-of-the-valley-aerosol",
+      "category": "aerosol-air-fresheners"
     },
     {
-      "id": "tropic-aerosol",
-      "slug": "tropic-aerosol",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": true,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Tropik» — aerozol havo xushbo‘ylantirgichi",
+          "description": "Air Time «Tropik» — shirin va tetik tropik mevalar uyg‘unligi. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Тропик» — аэрозольный освежитель воздуха",
+          "description": "Air Time «Тропик» раскрывается сочным и бодрящим сочетанием тропических фруктов. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Tropic — aerosol air freshener",
+          "description": "Air Time Tropic offers a juicy and uplifting blend of tropical fruits. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "tropic-aerosol-image",
           "image": "/products/tropic-aerosol.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "tropic-aerosol",
+      "featured": true,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "tropic-aerosol-format",
@@ -1022,36 +1035,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Tropik» — aerozol havo xushbo‘ylantirgichi",
-          "description": "Air Time «Tropik» — shirin va tetik tropik mevalar uyg‘unligi. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Тропик» — аэрозольный освежитель воздуха",
-          "description": "Air Time «Тропик» раскрывается сочным и бодрящим сочетанием тропических фруктов. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Tropic — aerosol air freshener",
-          "description": "Air Time Tropic offers a juicy and uplifting blend of tropical fruits. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "tropic-aerosol",
+      "category": "aerosol-air-fresheners"
     },
     {
-      "id": "apple-aerosol",
-      "slug": "apple-aerosol",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": false,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Olma» — aerozol havo xushbo‘ylantirgichi",
+          "description": "Air Time «Olma» — pishgan olmaning tiniq, shirali va yengil shirin ifori. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Яблоко» — аэрозольный освежитель воздуха",
+          "description": "Air Time «Яблоко» раскрывается чистым, сочным и слегка сладким ароматом спелого яблока. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Apple — aerosol air freshener",
+          "description": "Air Time Apple offers the crisp, juicy and lightly sweet scent of ripe apple. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "apple-aerosol-image",
           "image": "/products/apple-aerosol.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "apple-aerosol",
+      "featured": false,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "apple-aerosol-format",
@@ -1073,36 +1086,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Olma» — aerozol havo xushbo‘ylantirgichi",
-          "description": "Air Time «Olma» — pishgan olmaning tiniq, shirali va yengil shirin ifori. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Яблоко» — аэрозольный освежитель воздуха",
-          "description": "Air Time «Яблоко» раскрывается чистым, сочным и слегка сладким ароматом спелого яблока. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Apple — aerosol air freshener",
-          "description": "Air Time Apple offers the crisp, juicy and lightly sweet scent of ripe apple. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "apple-aerosol",
+      "category": "aerosol-air-fresheners"
     },
     {
-      "id": "white-tea-fruits-aerosol",
-      "slug": "white-tea-fruits-aerosol",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": false,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Oq choy va mevalar» — aerozol havo xushbo‘ylantirgichi",
+          "description": "Air Time «Oq choy va mevalar» — oq choyning sokin ohanglari va shirali mevalar uyg‘unligi. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Белый чай и фрукты» — аэрозольный освежитель воздуха",
+          "description": "Air Time «Белый чай и фрукты» раскрывается спокойными нотами белого чая в сочетании с сочными фруктами. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time White Tea & Fruits — aerosol air freshener",
+          "description": "Air Time White Tea & Fruits offers calm white-tea notes blended with juicy fruits. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "white-tea-fruits-aerosol-image",
           "image": "/products/white-tea-fruits-aerosol.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "white-tea-fruits-aerosol",
+      "featured": false,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "white-tea-fruits-aerosol-format",
@@ -1124,36 +1137,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Oq choy va mevalar» — aerozol havo xushbo‘ylantirgichi",
-          "description": "Air Time «Oq choy va mevalar» — oq choyning sokin ohanglari va shirali mevalar uyg‘unligi. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Белый чай и фрукты» — аэрозольный освежитель воздуха",
-          "description": "Air Time «Белый чай и фрукты» раскрывается спокойными нотами белого чая в сочетании с сочными фруктами. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time White Tea & Fruits — aerosol air freshener",
-          "description": "Air Time White Tea & Fruits offers calm white-tea notes blended with juicy fruits. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "white-tea-fruits-aerosol",
+      "category": "aerosol-air-fresheners"
     },
     {
-      "id": "forest-berries-aerosol",
-      "slug": "forest-berries-aerosol",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": true,
+      "translations": {
+        "uz": {
+          "title": "Air Time «O‘rmon mevalari» — aerozol havo xushbo‘ylantirgichi",
+          "description": "Air Time «O‘rmon mevalari» — o‘rmon rezavorlarining shirali va yengil nordon ifori. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Лесные ягоды» — аэрозольный освежитель воздуха",
+          "description": "Air Time «Лесные ягоды» раскрывается сочным ягодным ароматом с лёгкой кислинкой. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Forest Berries — aerosol air freshener",
+          "description": "Air Time Forest Berries offers a juicy woodland-berry fragrance with a gently tart edge. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "forest-berries-aerosol-image",
           "image": "/products/forest-berries-aerosol.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "forest-berries-aerosol",
+      "featured": true,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "forest-berries-aerosol-format",
@@ -1175,36 +1188,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «O‘rmon mevalari» — aerozol havo xushbo‘ylantirgichi",
-          "description": "Air Time «O‘rmon mevalari» — o‘rmon rezavorlarining shirali va yengil nordon ifori. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Лесные ягоды» — аэрозольный освежитель воздуха",
-          "description": "Air Time «Лесные ягоды» раскрывается сочным ягодным ароматом с лёгкой кислинкой. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Forest Berries — aerosol air freshener",
-          "description": "Air Time Forest Berries offers a juicy woodland-berry fragrance with a gently tart edge. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "forest-berries-aerosol",
+      "category": "aerosol-air-fresheners"
     },
     {
-      "id": "sultanate-spray",
-      "slug": "sultanate-spray",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": false,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Sultonat» — purkagichli havo xushbo‘ylantirgichi",
+          "description": "Air Time «Sultonat» — boy, iliq va salobatli sharqona ifor. Trigger purkagichli flakon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Султанат» — освежитель воздуха с триггерным распылителем",
+          "description": "Air Time «Султанат» раскрывается богатым, тёплым и выразительным восточным ароматом. Флакон с триггерным распылителем подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Sultanate — trigger-spray air freshener",
+          "description": "Air Time Sultanate offers a rich, warm and expressive oriental fragrance. The trigger-spray bottle is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "sultanate-spray-image",
           "image": "/products/sultanate-spray.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "sultanate-spray",
+      "featured": false,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "sultanate-spray-format",
@@ -1226,36 +1239,36 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Sultonat» — purkagichli havo xushbo‘ylantirgichi",
-          "description": "Air Time «Sultonat» — boy, iliq va salobatli sharqona ifor. Trigger purkagichli flakon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Султанат» — освежитель воздуха с триггерным распылителем",
-          "description": "Air Time «Султанат» раскрывается богатым, тёплым и выразительным восточным ароматом. Флакон с триггерным распылителем подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Sultanate — trigger-spray air freshener",
-          "description": "Air Time Sultanate offers a rich, warm and expressive oriental fragrance. The trigger-spray bottle is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "sultanate-spray",
+      "category": "spray-air-fresheners"
     },
     {
-      "id": "sultanate-aerosol",
-      "slug": "sultanate-aerosol",
-      "category": "aerosol-air-fresheners",
-      "price": "0",
-      "discounted_price": null,
-      "is_available": true,
-      "featured": false,
+      "translations": {
+        "uz": {
+          "title": "Air Time «Sultonat» — aerozol havo xushbo‘ylantirgichi",
+          "description": "Air Time «Sultonat» — boy, iliq va salobatli sharqona ifor. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
+        },
+        "ru": {
+          "title": "Air Time «Султанат» — аэрозольный освежитель воздуха",
+          "description": "Air Time «Султанат» раскрывается богатым, тёплым и выразительным восточным ароматом. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
+        },
+        "en": {
+          "title": "Air Time Sultanate — aerosol air freshener",
+          "description": "Air Time Sultanate offers a rich, warm and expressive oriental fragrance. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
+        }
+      },
       "product_images": [
         {
           "id": "sultanate-aerosol-image",
           "image": "/products/sultanate-aerosol.jpg"
         }
       ],
+      "price": "0",
+      "discounted_price": null,
+      "slug": "sultanate-aerosol",
+      "featured": false,
+      "barcodes": [],
+      "is_available": true,
       "short_descriptions": [
         {
           "id": "sultanate-aerosol-format",
@@ -1277,21 +1290,8 @@
           }
         }
       ],
-      "barcodes": [],
-      "translations": {
-        "uz": {
-          "title": "Air Time «Sultonat» — aerozol havo xushbo‘ylantirgichi",
-          "description": "Air Time «Sultonat» — boy, iliq va salobatli sharqona ifor. Aerozol ballon uy, ofis va boshqa yopiq joylarda havoni kundalik yangilash uchun qulay."
-        },
-        "ru": {
-          "title": "Air Time «Султанат» — аэрозольный освежитель воздуха",
-          "description": "Air Time «Султанат» раскрывается богатым, тёплым и выразительным восточным ароматом. Аэрозольный баллон подходит для повседневного освежения воздуха дома, в офисе и других помещениях."
-        },
-        "en": {
-          "title": "Air Time Sultanate — aerosol air freshener",
-          "description": "Air Time Sultanate offers a rich, warm and expressive oriental fragrance. The aerosol can is suited to everyday freshening in homes, offices and other indoor spaces."
-        }
-      }
+      "id": "sultanate-aerosol",
+      "category": "aerosol-air-fresheners"
     }
   ],
   "aboutImages": [
