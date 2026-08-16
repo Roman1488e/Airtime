@@ -11,10 +11,10 @@ const AdditionalDetail = ({ title, content }: AdditionalDetailsProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="bg-white divide-y rounded-lg shadow-sm border overflow-hidden transition-all duration-200">
+    <div className="bg-surface divide-y rounded-lg shadow-sm border border-surface-border overflow-hidden transition-all duration-200">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full p-4 md:p-6 flex justify-between items-center hover:bg-gray-50 transition-colors"
+        className="w-full p-4 md:p-6 flex justify-between items-center hover:bg-surface-muted transition-colors"
       >
         <h3 className="text-lg font-semibold text-left">{title}</h3>
         {isOpen ? (

@@ -21,9 +21,9 @@ const BrandCarousel = ({ brands }: BrandCarouselProps) => {
           <div
             key={item.id}
             title={item.company_name}
-            className="aspect-square relative rounded-2xl overflow-hidden bg-gradient-to-br from-white to-gray-50 
+            className="aspect-square relative rounded-2xl overflow-hidden bg-gradient-to-br from-surface to-surface-muted border border-surface-border
               shadow-lg hover:shadow-2xl transition-all duration-300 p-6 mx-3
-              border border-gray-100 hover:border-blue-100 flex-shrink-0 w-48 md:w-60"
+              hover:border-blue-200 flex-shrink-0 w-48 md:w-60"
           >
             <div
               className="absolute inset-0 bg-gradient-to-t from-black/5 to-transparent 
@@ -53,9 +53,9 @@ const BrandCarousel = ({ brands }: BrandCarouselProps) => {
             <div
               key={`duplicate-${item.id}`}
               title={item.company_name}
-              className="aspect-square relative rounded-2xl overflow-hidden bg-gradient-to-br from-white to-gray-50 
+              className="aspect-square relative rounded-2xl overflow-hidden bg-gradient-to-br from-surface to-surface-muted border border-surface-border
                 shadow-lg hover:shadow-2xl transition-all duration-300 p-6 mx-3
-                border border-gray-100 hover:border-blue-100 flex-shrink-0 w-48 md:w-60"
+                hover:border-blue-200 flex-shrink-0 w-48 md:w-60"
             >
               <div
                 className="absolute inset-0 bg-gradient-to-t from-black/5 to-transparent 

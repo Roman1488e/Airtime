@@ -90,7 +90,7 @@ export default function MobileMenu({
       {/* Menu */}
       <div
         ref={menuRef}
-        className="fixed top-[72px] inset-x-0 max-h-[calc(100vh-72px)] overflow-y-auto bg-white shadow-lg z-50 md:hidden"
+        className="fixed top-[72px] inset-x-0 max-h-[calc(100vh-72px)] overflow-y-auto bg-surface border-t border-surface-border shadow-lg z-50 md:hidden"
       >
         {/* Close button */}
 

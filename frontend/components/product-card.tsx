@@ -40,7 +40,7 @@ export default function ProductCard({
     return (
       <div
         className={cn(
-          "bg-white rounded-xl shadow-sm overflow-hidden group transition-all duration-300 hover:shadow-md flex flex-col h-full",
+          "bg-surface border border-surface-border rounded-xl shadow-sm overflow-hidden group transition-all duration-300 hover:shadow-md flex flex-col h-full",
           className
         )}
       >
@@ -100,7 +100,7 @@ export default function ProductCard({
   return (
     <div
       className={cn(
-        "bg-white rounded-xl shadow-sm overflow-hidden group transition-all duration-300 hover:shadow-md flex flex-col h-full",
+        "bg-surface border border-surface-border rounded-xl shadow-sm overflow-hidden group transition-all duration-300 hover:shadow-md flex flex-col h-full",
         className
       )}
     >

@@ -98,7 +98,7 @@ export default function SearchBox({
         className="mt-4 animate-in z-50 fade-in-50 slide-in-from-top-5"
         ref={inputRef}
       >
-        <div className="mt-4 bg-white z-50 rounded-lg shadow-lg p-4 relative">
+        <div className="mt-4 bg-surface z-50 rounded-lg border border-surface-border shadow-lg p-4 relative">
           <div className="flex items-center border-b border-gray-300  pb-2">
             <Search className="h-5 w-5 text-gray-400 mr-2" />
             <input
@@ -122,7 +122,7 @@ export default function SearchBox({
               {results.map((product) => (
                 <li
                   key={product.id.toString()}
-                  className="py-2 px-2 hover:bg-gray-100 cursor-pointer flex items-center rounded-md"
+                  className="py-2 px-2 hover:bg-surface-muted cursor-pointer flex items-center rounded-md"
                   onClick={() => handleProductClick(product.slug)}
                 >
                   <div className="w-10 h-10 relative mr-3 flex-shrink-0">

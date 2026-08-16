@@ -241,11 +241,11 @@ export default function Header({
               </button>
 
               {state.isMounted && state.categoriesMenuOpen && (
-                <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white border animate-in fade-in-50 slide-in-from-top-5 z-20">
+                <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-surface border border-surface-border animate-in fade-in-50 slide-in-from-top-5 z-20">
                   <div className="py-1" role="menu" aria-orientation="vertical">
                     <Link
                       href={`/${lang}/products`}
-                      className="block px-4 py-2 text-sm hover:bg-gray-100 text-gray-800 font-medium"
+                      className="block px-4 py-2 text-sm hover:bg-surface-muted text-gray-800 font-medium"
                       role="menuitem"
                       onClick={(e) => navigateToCategory("", e)}
                     >
@@ -255,7 +255,7 @@ export default function Header({
                       <Link
                         key={category.id.toString()}
                         href={`/${lang}/products?slug=${category.slug}`}
-                        className="block px-4 py-2 text-sm hover:bg-gray-100 text-gray-800 font-medium"
+                        className="block px-4 py-2 text-sm hover:bg-surface-muted text-gray-800 font-medium"
                         role="menuitem"
                         onClick={(e) =>
                           navigateToCategory(category.slug.toString(), e)
@@ -343,13 +343,13 @@ export default function Header({
               </button>
 
               {state.isMounted && state.languageMenuOpen && (
-                <div className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white border animate-in fade-in-50 slide-in-from-top-5 z-20">
+                <div className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-surface border border-surface-border animate-in fade-in-50 slide-in-from-top-5 z-20">
                   <div className="py-1" role="menu" aria-orientation="vertical">
                     {locales.map((locale) => (
                       <button
                         key={locale}
                         className={cn(
-                          "block w-full text-left px-4 py-2 text-sm hover:bg-gray-100 text-gray-800 transition-colors duration-150",
+                          "block w-full text-left px-4 py-2 text-sm hover:bg-surface-muted text-gray-800 transition-colors duration-150",
                           locale === lang
                             ? "font-medium text-[#383084]"
                             : "text-gray-700"

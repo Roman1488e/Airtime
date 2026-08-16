@@ -258,7 +258,7 @@ export default function ContactForm({
 
       {/* Google Maps Embed */}
       {contactInfo[0]?.map && (
-        <div className="bg-white rounded-lg shadow-md p-1 overflow-hidden">
+        <div className="bg-surface border border-surface-border rounded-lg shadow-md p-1 overflow-hidden">
           <div className="w-full h-[400px] rounded-lg overflow-hidden">
             <iframe
               src={contactInfo[0].map}

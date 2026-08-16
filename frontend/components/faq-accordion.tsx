@@ -12,7 +12,7 @@ export default function FaqAccordion({ question, answer }: FaqAccordionProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border border-gray-200 rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow">
+    <div className="border border-surface-border rounded-lg overflow-hidden bg-surface shadow-sm hover:shadow-md transition-shadow">
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="w-full p-4 md:p-6 flex justify-between items-center text-left"

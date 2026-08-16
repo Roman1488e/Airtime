@@ -115,7 +115,7 @@ export default async function ContactsPage({
         >
           <div className="absolute inset-0 bg-black/30"></div>
           <div className="container mx-auto px-4 md:px-8 lg:px-24 relative z-10">
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden max-w-5xl mx-auto">
+            <div className="bg-surface/95 backdrop-blur-sm border border-surface-border rounded-2xl shadow-xl overflow-hidden max-w-5xl mx-auto">
               <div className="p-6 md:p-12">
                 <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
                   {dict.contacts.title}

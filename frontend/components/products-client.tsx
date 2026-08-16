@@ -178,7 +178,7 @@ export default function ProductsClient({
       <div className="md:hidden mb-4">
         <button
           onClick={() => setShowFilters(!showFilters)}
-          className="w-full flex items-center justify-center gap-2 bg-white py-3 px-4 rounded-lg shadow-sm border border-gray-200 text-gray-700 font-medium"
+          className="w-full flex items-center justify-center gap-2 bg-surface py-3 px-4 rounded-lg shadow-sm border border-surface-border text-gray-700 font-medium"
         >
           <Filter className="h-4 w-4" />
           {showFilters
@@ -195,7 +195,7 @@ export default function ProductsClient({
             showFilters ? "block" : "hidden md:block"
           )}
         >
-          <div className="bg-white rounded-xl shadow-sm overflow-hidden sticky top-24">
+          <div className="bg-surface border border-surface-border rounded-xl shadow-sm overflow-hidden sticky top-24">
             {/* Filters header */}
             <div className="p-4 border-b flex items-center justify-between">
               <h3 className="font-medium text-gray-900 flex items-center gap-2">
@@ -295,7 +295,7 @@ export default function ProductsClient({
         {/* Products section */}
         <div className="flex-1">
           {/* View controls */}
-          <div className="bg-white rounded-xl shadow-sm p-4 mb-6 flex items-center justify-between">
+          <div className="bg-surface border border-surface-border rounded-xl shadow-sm p-4 mb-6 flex items-center justify-between">
             <div className="text-sm text-gray-500">
               {totalCount > 0
                 ? activeCategorySlug
@@ -339,7 +339,7 @@ export default function ProductsClient({
 
           {/* Initial loading indicator */}
           {isLoading && (
-            <div className="flex justify-center items-center py-12 bg-white rounded-xl shadow-sm">
+            <div className="flex justify-center items-center py-12 bg-surface border border-surface-border rounded-xl shadow-sm">
               <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-indigo-600"></div>
               <span className="ml-3 text-gray-600 font-medium">
                 {lang === "en"
@@ -353,7 +353,7 @@ export default function ProductsClient({
 
           {/* No products message */}
           {!isLoading && !isFetching && products.length === 0 && (
-            <div className="text-center py-16 bg-white rounded-xl shadow-sm">
+            <div className="text-center py-16 bg-surface border border-surface-border rounded-xl shadow-sm">
               <div className="mb-4">
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gray-100 text-gray-400 mb-4">
                   <X className="h-8 w-8" />
@@ -376,7 +376,7 @@ export default function ProductsClient({
 
           {/* Filter loading indicator */}
           {isFetching && !isLoading && (
-            <div className="flex justify-center items-center py-6 bg-white rounded-xl shadow-sm mb-6">
+            <div className="flex justify-center items-center py-6 bg-surface border border-surface-border rounded-xl shadow-sm mb-6">
               <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-indigo-600"></div>
               <span className="ml-3 text-sm text-gray-600">
                 {lang === "en"
@@ -429,7 +429,7 @@ export default function ProductsClient({
                     return (
                       <div
                         key={product.id.toString()}
-                        className="flex flex-col sm:flex-row border rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow"
+                        className="flex flex-col sm:flex-row border border-surface-border rounded-xl overflow-hidden bg-surface shadow-sm hover:shadow-md transition-shadow"
                       >
                         <div className="sm:w-1/3 md:w-1/4 bg-gray-50 p-4 flex items-center justify-center">
                           <div className="relative h-40 w-full">
@@ -507,7 +507,7 @@ export default function ProductsClient({
               {/* Loading more products */}
               {isFetchingNextPage && (
                 <div className="mt-6 flex justify-center">
-                  <div className="bg-white rounded-xl shadow-sm px-4 py-3 inline-flex items-center">
+                  <div className="bg-surface border border-surface-border rounded-xl shadow-sm px-4 py-3 inline-flex items-center">
                     <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-indigo-600" />
                     <span className="ml-3 text-sm text-gray-600">
                       {dictionary.common.loading}

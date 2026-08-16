@@ -175,7 +175,7 @@ export default async function ProductPage({
           dictionary={dict}
         />
         <div className="container mx-auto px-4 md:px-8 lg:px-24 pt-24 pb-16">
-          <div className="bg-white rounded-xl shadow-sm p-8 text-center max-w-2xl mx-auto">
+          <div className="bg-surface border border-surface-border rounded-xl shadow-sm p-8 text-center max-w-2xl mx-auto">
             <div className="flex justify-center mb-6">
               <div className="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center">
                 <AlertTriangle className="h-8 w-8 text-amber-600" />
@@ -277,7 +277,7 @@ export default async function ProductPage({
               </div>
             </div>
           ) : (
-            <div className="bg-white rounded-xl shadow-sm p-6">
+            <div className="bg-surface border border-surface-border rounded-xl shadow-sm p-6">
               <h2 className="text-2xl font-bold mb-4">
                 {dict.common.learnMore}
               </h2>
@@ -308,7 +308,7 @@ export default async function ProductPage({
               learnMoreText={dict.common.learnMore}
             />
           ) : (
-            <div className="bg-white rounded-xl shadow-sm p-6">
+            <div className="bg-surface border border-surface-border rounded-xl shadow-sm p-6">
               <h2 className="text-2xl font-bold mb-4">
                 {dict.home.popularProducts}
               </h2>
@@ -340,7 +340,7 @@ export default async function ProductPage({
 // Skeleton loader for product detail
 function ProductDetailSkeleton() {
   return (
-    <div className="bg-white rounded-xl shadow-sm p-6 animate-pulse">
+    <div className="bg-surface border border-surface-border rounded-xl shadow-sm p-6 animate-pulse">
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="w-full lg:w-1/2">
           <div className="aspect-square bg-gray-200 rounded-lg"></div>

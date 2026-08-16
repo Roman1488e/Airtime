@@ -199,7 +199,7 @@ export default function ProductDetail({ product, lang }: ProductDetailProps) {
       </Script>
 
       {/* Existing JSX */}
-      <div className="bg-white mt-12 rounded-xl shadow-md overflow-hidden mx-auto">
+      <div className="bg-surface border border-surface-border mt-12 rounded-xl shadow-md overflow-hidden mx-auto">
         <div className="flex flex-col lg:flex-row">
           <div className="w-full lg:w-1/2 p-4 md:p-8">
             <div className="relative">
@@ -360,7 +360,7 @@ export default function ProductDetail({ product, lang }: ProductDetailProps) {
                     </thead>
                     <tbody>
                       {product.barcodes.map((barcode, index) => (
-                        <tr key={index} className="bg-white border-b">
+                        <tr key={index} className="bg-surface border-b">
                           <td className="px-4 py-2">{barcode.key}</td>
                           <td className="px-4 py-2">{barcode.value}</td>
                           <td className="px-4 py-2">

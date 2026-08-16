@@ -16,7 +16,7 @@ export default function CategoryCard({ category, lang }: CategoryCardProps) {
   return (
     <div className="group relative w-full max-w-[180px] mx-auto transition-transform duration-300 ease-out hover:scale-105">
       <Link href={`/products?slug=${category.slug}`} className="block">
-        <div className="relative aspect-square rounded-xl bg-white shadow-md group-hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100">
+        <div className="relative aspect-square rounded-xl bg-surface shadow-md group-hover:shadow-xl transition-all duration-300 overflow-hidden border border-surface-border">
           <Image
             src={image}
             alt={title}

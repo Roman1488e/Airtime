@@ -4,7 +4,7 @@ import { Search, Home } from "lucide-react";
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white flex items-center justify-center px-4">
+    <div className="min-h-screen bg-gradient-to-b from-surface-muted to-background flex items-center justify-center px-4">
       <div className="max-w-2xl mx-auto text-center">
         {/* Logo */}
         <div className="mb-8">
@@ -46,7 +46,7 @@ export default function NotFound() {
           </Link>
           <Link
             href="/uz/products"
-            className="inline-flex items-center px-6 py-3 bg-white text-[#383084] font-semibold rounded-lg border-2 border-[#383084] hover:bg-[#383084] hover:text-white transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#383084] focus:ring-offset-2"
+            className="inline-flex items-center px-6 py-3 bg-surface text-[#383084] font-semibold rounded-lg border-2 border-[#383084] hover:bg-[#383084] hover:text-white transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#383084] focus:ring-offset-2"
           >
             <Search className="mr-2 h-5 w-5" />
             Mahsulotlar
@@ -54,7 +54,7 @@ export default function NotFound() {
         </div>
 
         {/* Popular Categories */}
-        <div className="bg-white rounded-xl shadow-sm p-6">
+        <div className="bg-surface border border-surface-border rounded-xl shadow-sm p-6">
           <h3 className="text-xl font-semibold text-gray-900 mb-4">
             Mashhur bo&apos;limlar
           </h3>
