@@ -1360,15 +1360,15 @@
       "translations": {
         "uz": {
           "title": "Air Time",
-          "description": "<p>Kompaniyangiz haqida ma'lumotni admin paneldan tahrirlang.</p>"
+          "description": "<p>Biz atrof-muhit kayfiyatni belgilashiga ishonamiz. Xona shunchaki chiroyli ko‘rinmasligi kerak — u tirik his etilishi lozim. Bizning aromatik kompozitsiyalarimiz hayotingiz uchun nozik fon sifatida yaratilgan: ular chalg‘itmaydi, balki makonni boyitadi.</p>"
         },
         "ru": {
           "title": "Air Time",
-          "description": "<p>Редактируйте информацию о компании в панели администратора.</p>"
+          "description": "<p>Мы верим, что окружающая среда задаёт настроение. Пространство должно не просто красиво выглядеть — оно должно ощущаться живым. Наши ароматические композиции созданы как тонкий фон для вашей жизни: они не отвлекают, а обогащают пространство.</p>"
         },
         "en": {
           "title": "Air Time",
-          "description": "<p>Edit your company information in the admin panel.</p>"
+          "description": "<p>We believe that our surroundings shape the mood. A space should not simply look beautiful — it should feel alive. Our fragrance compositions are created as a subtle backdrop to your life: they do not distract; they enrich the space.</p>"
         }
       }
     }
@@ -1393,5 +1393,73 @@
       }
     }
   ],
-  "faqs": []
+  "faqs": [
+    {
+      "id": "airtime-faq",
+      "translations": {
+        "uz": {
+          "title": "Air Time haqida"
+        },
+        "ru": {
+          "title": "Об Air Time"
+        },
+        "en": {
+          "title": "About Air Time"
+        }
+      },
+      "questions_answers": [
+        {
+          "id": "international-delivery",
+          "translations": {
+            "uz": {
+              "question": "Xalqaro yetkazib berishni taklif qilasizmi?",
+              "answer": "<p>Hozirda biz yetkazib berishni faqat O‘zbekiston hududi bo‘ylab amalga oshiramiz. Bu bizga yetkazib berish muddatlarini, xizmat sifatini va mahsulot holatini qabul vaqtida to‘liq nazorat qilish imkonini beradi.</p><p>Biz faoliyat geografiyasini bosqichma-bosqich kengaytirib bormoqdamiz va yetkazib berish mamlakat tashqarisida ham mavjud bo‘lganda, albatta xabar beramiz.</p>"
+            },
+            "ru": {
+              "question": "Предоставляете ли вы международную доставку?",
+              "answer": "<p>На данный момент мы осуществляем доставку только по территории Узбекистана. Это позволяет нам контролировать сроки, качество сервиса и состояние продукции при получении.</p><p>Мы постепенно расширяем географию присутствия и обязательно сообщим, когда доставка станет доступна за пределами страны.</p>"
+            },
+            "en": {
+              "question": "Do you offer international delivery?",
+              "answer": "<p>At the moment, we offer delivery only within Uzbekistan. This allows us to maintain full control over delivery timelines, service quality, and the condition of products upon arrival.</p><p>We are gradually expanding our geographic reach and will be sure to inform you when international delivery becomes available.</p>"
+            }
+          }
+        },
+        {
+          "id": "fragrance-difference",
+          "translations": {
+            "uz": {
+              "question": "Airtime aromatlari oddiy havo tozalagichlardan nimasi bilan farq qiladi?",
+              "answer": "Biz hidlarni yashirmaymiz — biz muhit bilan ishlaymiz. Airtime aromatlari makonning bir qismi sifatida yaratiladi: ular muloyim ochiladi, interyerni ortiqcha yuklamaydi va xotirada qoladi."
+            },
+            "ru": {
+              "question": "Чем ароматы Airtime отличаются от обычных освежителей воздуха?",
+              "answer": "Мы не маскируем запахи — мы работаем с атмосферой. Ароматы Airtime создаются как часть пространства: они раскрываются мягко, не перегружают интерьер и остаются в памяти."
+            },
+            "en": {
+              "question": "How are Airtime fragrances different from regular air fresheners?",
+              "answer": "We don’t mask odors — we work with atmosphere. Airtime fragrances are created as part of a space: they unfold softly, never overwhelm the interior, and leave a lasting impression."
+            }
+          }
+        },
+        {
+          "id": "suitable-spaces",
+          "translations": {
+            "uz": {
+              "question": "Airtime aromatlari qaysi makonlar uchun mos?",
+              "answer": "Bizning aromatik yechimlarimiz ofislar, salonlar, butiklar, mehmonxonalar, avtosalonlar va birinchi taassurot hamda muhit muhim bo‘lgan boshqa makonlar uchun mos keladi."
+            },
+            "ru": {
+              "question": "Для каких пространств подходят ароматы Airtime?",
+              "answer": "Наши ароматические решения подходят для офисов, салонов, бутиков, отелей, автоцентров и других пространств, где важны первое впечатление и атмосфера."
+            },
+            "en": {
+              "question": "What types of spaces are Airtime fragrances suitable for?",
+              "answer": "Our aromatic solutions are designed for offices, salons, boutiques, hotels, car showrooms, and other spaces where first impressions and atmosphere truly matter."
+            }
+          }
+        }
+      ]
+    }
+  ]
 }
