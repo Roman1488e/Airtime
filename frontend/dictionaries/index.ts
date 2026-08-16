@@ -9,7 +9,7 @@ const dictionaries: Record<Locale, () => Promise<Dictionary>> = {
 };
 
 export const getDictionary: GetDictionaryType = async (locale: string) => {
-  // Agar locale qo'llab-quvvatlanmasa, 'uz' ga o'tkaziladi
-  const validLocale = (locale in dictionaries ? locale : "uz") as Locale;
+  // Unsupported or missing locales fall back to the site's default language.
+  const validLocale = (locale in dictionaries ? locale : "ru") as Locale;
   return dictionaries[validLocale]();
 };

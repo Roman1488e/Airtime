@@ -24,6 +24,7 @@ export default function ContactForm({
     phone: "",
     email: "",
     message: "",
+    website: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<
@@ -45,10 +46,8 @@ export default function ContactForm({
     setSubmitStatus("idle");
 
     try {
-      const response = await submitContactForm(formData);
+      await submitContactForm(formData, lang);
       toast.success(dict.contacts.successMessage);
-
-      console.log(response);
 
       setSubmitStatus("success");
       setFormData({
@@ -57,6 +56,7 @@ export default function ContactForm({
         phone: "",
         email: "",
         message: "",
+        website: "",
       });
     } catch (error) {
       console.error("Error submitting form:", error);
@@ -130,6 +130,18 @@ export default function ContactForm({
 
         <div>
           <form onSubmit={handleSubmit} className="space-y-5">
+            <div className="hidden" aria-hidden="true">
+              <label htmlFor="website">Website</label>
+              <input
+                type="text"
+                id="website"
+                name="website"
+                value={formData.website}
+                onChange={handleChange}
+                tabIndex={-1}
+                autoComplete="off"
+              />
+            </div>
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <label
@@ -145,6 +157,7 @@ export default function ContactForm({
                   value={formData.first_name}
                   onChange={handleChange}
                   required
+                  maxLength={80}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary/50 focus:border-primary outline-none transition"
                 />
               </div>
@@ -162,6 +175,7 @@ export default function ContactForm({
                   value={formData.last_name}
                   onChange={handleChange}
                   required
+                  maxLength={80}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary/50 focus:border-primary outline-none transition"
                 />
               </div>
@@ -181,6 +195,7 @@ export default function ContactForm({
                 value={formData.phone}
                 onChange={handleChange}
                 required
+                maxLength={40}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary/50 focus:border-primary outline-none transition"
               />
             </div>
@@ -199,6 +214,7 @@ export default function ContactForm({
                 value={formData.email}
                 onChange={handleChange}
                 required
+                maxLength={160}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary/50 focus:border-primary outline-none transition"
               />
             </div>
@@ -216,6 +232,7 @@ export default function ContactForm({
                 value={formData.message}
                 onChange={handleChange}
                 required
+                maxLength={2000}
                 rows={4}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary/50 focus:border-primary outline-none transition resize-none"
               ></textarea>

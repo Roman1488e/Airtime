@@ -8,7 +8,7 @@ export default function RootPage() {
   useEffect(() => {
     const hasIdentityToken = window.location.hash.includes("invite_token") || window.location.hash.includes("recovery_token");
     setIsIdentityLink(hasIdentityToken);
-    if (!hasIdentityToken) window.location.replace("/uz/");
+    if (!hasIdentityToken) window.location.replace("/ru/");
   }, []);
 
   return isIdentityLink ? (

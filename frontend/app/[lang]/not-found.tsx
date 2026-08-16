@@ -50,7 +50,7 @@ const getNotFoundMessages = (lang: Locale) => {
 };
 
 export default function NotFound({ params }: NotFoundPageProps) {
-  const lang = params?.lang || "uz";
+  const lang = params?.lang || "ru";
   const messages = getNotFoundMessages(lang);
 
   return (

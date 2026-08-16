@@ -46,7 +46,7 @@ const getErrorMessages = (lang: Locale) => {
 };
 
 export default function Error({ error, reset, params }: ErrorPageProps) {
-  const lang = params?.lang || "uz";
+  const lang = params?.lang || "ru";
   const messages = getErrorMessages(lang);
 
   useEffect(() => {

@@ -6,13 +6,11 @@ import { getDictionary } from "@/dictionaries";
 import {
   fetchAboutCompany,
   fetchAboutImages,
-  fetchBrands,
   fetchCategories,
 } from "@/lib/api";
 import type { Locale } from "@/types";
 // import { Metadata } from "next";
 import Image from "next/image";
-import BrandCarousel from "./brand-carousel";
 
 // export const metadata: Metadata = {
 //   metadataBase: new URL("https://airtime.uz"),
@@ -120,7 +118,6 @@ export default async function AboutPage({
   const categories = await fetchCategories();
   const companyInfo = aboutCompany.length > 0 ? aboutCompany[0] : null;
   const aboutImage = await fetchAboutImages();
-  const brands = await fetchBrands();
 
   return (
     <>
@@ -189,16 +186,6 @@ export default async function AboutPage({
                 className="object-cover"
               />
             </div>
-          </div>
-        </section>
-
-        <section className="py-16 md:py-24 bg-[linear-gradient(135deg,#f7f8ff,#eef9fc)]">
-          <div className="container mx-auto px-4 md:px-8 lg:px-24">
-            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-              {dict.about.ourBrands || "Our Brands"}
-            </h2>
-
-            <BrandCarousel brands={brands} />
           </div>
         </section>
 

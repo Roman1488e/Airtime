@@ -27,72 +27,71 @@ export default function NotFound() {
 
         {/* Error Message */}
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Sahifa topilmadi
+          Страница не найдена
         </h2>
         <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-          Kechirasiz, siz qidirayotgan sahifa mavjud emas yoki
-          ko&apos;chirilgan. Bosh sahifaga qayting yoki qidiruv orqali kerakli
-          mahsulotni toping.
+          К сожалению, запрашиваемая страница не существует или была
+          перемещена. Вернитесь на главную страницу или найдите нужный товар.
         </p>
 
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
           <Link
-            href="/uz"
+            href="/ru"
             className="inline-flex items-center px-6 py-3 bg-[#383084] text-white font-semibold rounded-lg hover:bg-[#2d2670] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#383084] focus:ring-offset-2"
           >
             <Home className="mr-2 h-5 w-5" />
-            Bosh sahifa
+            Главная
           </Link>
           <Link
-            href="/uz/products"
+            href="/ru/products"
             className="inline-flex items-center px-6 py-3 bg-surface text-[#383084] font-semibold rounded-lg border-2 border-[#383084] hover:bg-[#383084] hover:text-white transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#383084] focus:ring-offset-2"
           >
             <Search className="mr-2 h-5 w-5" />
-            Mahsulotlar
+            Товары
           </Link>
         </div>
 
         {/* Popular Categories */}
         <div className="bg-surface border border-surface-border rounded-xl shadow-sm p-6">
           <h3 className="text-xl font-semibold text-gray-900 mb-4">
-            Mashhur bo&apos;limlar
+            Популярные разделы
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <Link
-              href="/uz/products"
+              href="/ru/products"
               className="p-4 rounded-lg bg-gray-50 hover:bg-[#d3f0f1] transition-colors duration-200 text-center"
             >
               <div className="text-2xl mb-2">🌬️</div>
               <span className="text-sm font-medium text-gray-700">
-                Barcha mahsulotlar
+                Все товары
               </span>
             </Link>
             <Link
-              href="/uz/featured"
+              href="/ru/featured"
               className="p-4 rounded-lg bg-gray-50 hover:bg-[#d3f0f1] transition-colors duration-200 text-center"
             >
               <div className="text-2xl mb-2">⭐</div>
               <span className="text-sm font-medium text-gray-700">
-                Mashhur mahsulotlar
+                Популярные товары
               </span>
             </Link>
             <Link
-              href="/uz/about"
+              href="/ru/about"
               className="p-4 rounded-lg bg-gray-50 hover:bg-[#d3f0f1] transition-colors duration-200 text-center"
             >
               <div className="text-2xl mb-2">ℹ️</div>
               <span className="text-sm font-medium text-gray-700">
-                Biz haqimizda
+                О нас
               </span>
             </Link>
             <Link
-              href="/uz/contacts"
+              href="/ru/contacts"
               className="p-4 rounded-lg bg-gray-50 hover:bg-[#d3f0f1] transition-colors duration-200 text-center"
             >
               <div className="text-2xl mb-2">📞</div>
               <span className="text-sm font-medium text-gray-700">
-                Kontaktlar
+                Контакты
               </span>
             </Link>
           </div>

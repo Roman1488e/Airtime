@@ -83,14 +83,32 @@ export async function fetchSocialLinks(): Promise<SocialLinks[]> { return [siteC
 export async function fetchBrands(): Promise<Brands[]> { return siteContent.brands; }
 export async function searchProducts(query: string): Promise<Product[]> { return (await fetchProducts({ search: query, limit: Number.MAX_SAFE_INTEGER })).products; }
 
-export async function submitContactForm(formData: { first_name: string; last_name: string; phone: string; email: string; message: string }) {
+export async function submitContactForm(
+  formData: {
+    first_name: string;
+    last_name: string;
+    phone: string;
+    email: string;
+    message: string;
+    website: string;
+  },
+  language: Locale
+) {
   if (!siteContent.formEndpoint) {
-    const subject = encodeURIComponent(`Website message from ${formData.first_name} ${formData.last_name}`);
-    const body = encodeURIComponent(`Phone: ${formData.phone}\nEmail: ${formData.email}\n\n${formData.message}`);
+    const subject = encodeURIComponent(
+      `Website message from ${formData.first_name} ${formData.last_name}`
+    );
+    const body = encodeURIComponent(
+      `Phone: ${formData.phone}\nEmail: ${formData.email}\n\n${formData.message}`
+    );
     window.location.href = `mailto:${siteContent.contact.email}?subject=${subject}&body=${body}`;
     return { delivered: false };
   }
-  const response = await fetch(siteContent.formEndpoint, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(formData) });
+  const response = await fetch(siteContent.formEndpoint, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", Accept: "application/json" },
+    body: JSON.stringify({ ...formData, language }),
+  });
   if (!response.ok) throw new Error("Contact form submission failed");
   return response.json().catch(() => ({ delivered: true }));
 }

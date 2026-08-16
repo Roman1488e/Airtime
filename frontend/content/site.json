@@ -1373,7 +1373,7 @@
       }
     }
   ],
-  "formEndpoint": "",
+  "formEndpoint": "/api/contact",
   "categories": [
     {
       "id": "air-fresheners",
